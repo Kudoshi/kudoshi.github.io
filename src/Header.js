@@ -23,9 +23,6 @@ export default function Header() {
                         <li class="nav-item px-2">
                             <a class="nav-link" href="#">Projects</a>
                         </li>
-                        <li class="nav-item px-2">
-                            <a class="nav-link" href="#">Contact Me</a>
-                        </li>
                     </ul>
                 </div>
             </div>
