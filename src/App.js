@@ -5,14 +5,14 @@ import {
   useNavigate
 } from "react-router-dom";
 import Homepage from "./Homepage";
-import ProjectOverview from "./components/ProjectOverview";
+import Project from "./Project";
 
 
 export default function App(){
   return(
     <Routes>
-      <Route path="homepage" element={<Homepage/>}/>
-      <Route path="projects" element={<ProjectOverview/>}/>
+      <Route path="/" element={<Homepage/>}/>
+      <Route path="project" element={<Project/>}/>
       <Route path="*" element={<Homepage/>}/>
     </Routes>
   )
