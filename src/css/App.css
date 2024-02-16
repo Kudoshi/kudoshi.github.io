@@ -15,6 +15,10 @@
   background-color: #FFFFFF;
 }
 
+.BGCarouselText
+{
+  background-color: #00000090;
+}
 
 /* Fonts */
 
@@ -187,7 +191,8 @@
 }
 
 .carousel-inner img {
-  margin: auto;
+  max-height: 768px;
+  min-width: auto;
 }
 
 .limit-wrap
@@ -200,6 +205,14 @@
 .hover-clickable
 {
   cursor: pointer;
+}
+
+/* Individual CSS */
+
+.carousel-img
+{
+  min-width: 300px;
+  max-width: 1000px;
 }
 
 

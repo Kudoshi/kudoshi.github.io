@@ -1,0 +1,79 @@
+import CarouselJson from "../json/HomepageCarousel.json";
+
+// Array of object:
+// Object: srcURL, header, caption
+
+export default function Carousel() {
+
+	function SetButtons(){
+    let buttons = [];
+		buttons.push(<button type="button" data-bs-target="#highlight" data-bs-slide-to="0" className="active shadow-lg"></button>);
+		for (let i = 1; i<CarouselJson.length; i++)
+		{ 
+      buttons.push(<button type="button" data-bs-target="#highlight" data-bs-slide-to={i} className="active shadow-lg"></button>);
+		}	
+
+    return buttons;
+	}
+
+  function DisplayCarousel(){
+    let div = [];
+
+    for (let i = 0; i <CarouselJson.length; i++)
+    { 
+      let classActive = "carousel-item";
+
+      if (i == 0){
+        classActive += " active";
+      }
+
+      div.push(
+        <div className={classActive}>
+          <img src={CarouselJson[i].srcUrl} alt={CarouselJson[i].header} className="d-block" style={{width:"100%", height:"auto"}}/>
+          <div className="carousel-caption text-shadow-medium shadow-lg BGCarouselText rounded-pill">
+            <h3 className="h5">{CarouselJson[i].header}</h3>
+            <p className="fs-6">{CarouselJson[i].caption}</p>
+          </div>  
+        </div>
+      );
+    }
+
+    return div;
+            
+  }
+
+    return (
+    	<div className='bg-black d-flex justify-content-center align-items-center'>
+				<div id="highlight" className='carousel slide' data-bs-ride="carousel">
+        {/* Indicators/dots */}
+          <div className="carousel-indicators">
+            {SetButtons()}
+          </div>
+          {/* Carousel */}
+          <div className="carousel-inner justify-content-center align-items-center">
+            {DisplayCarousel()}
+          </div>
+          {/* Button Control */}
+          <button className="carousel-control-prev" type="button" data-bs-target="#highlight" data-bs-slide="prev">
+            <span className="carousel-control-prev-icon"></span>
+          </button>
+          <button className="carousel-control-next" type="button" data-bs-target="#highlight" data-bs-slide="next">
+            <span className="carousel-control-next-icon"></span>
+          </button>
+        </div>
+      </div>
+    );
+    
+}
+
+// const CarouselImage = ({srcUrl, header, caption}) => {
+//     return (
+//         <div className="carousel-item">
+//         <img src={srcURL} alt={header} className="d-block img-responsive" style={{width:"100vw"}}/>
+//             <div className="carousel-caption">
+//                 <h3>{header}</h3>
+//                 <p>{caption}</p>
+//             </div>  
+//         </div>
+//     );
+// };

@@ -1,0 +1,20 @@
+
+[
+    {
+        "srcUrl" : "./images/carousel_01.png",
+        "header" : "Header testing 01 Header testing 01",
+        "caption" : "Lorem Ipsum Ipudo yo here"
+    }, 
+    {
+        "srcUrl" : "./images/carousel_02.png",
+        "header" : "Header testing 02  sdfsdfsdfsfds",
+        "caption" : "Lorem Ipsum Ipudo yo here"
+    }, 
+    {
+        "srcUrl" : "./images/carousel_03.png",
+        "header" : "Header testing 03",
+        "caption" : "Lorem Ipsum Ipudo yo here"
+    }
+    
+]
+
