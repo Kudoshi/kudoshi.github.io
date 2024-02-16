@@ -7,10 +7,14 @@ export default function Carousel() {
 
 	function SetButtons(){
     let buttons = [];
-		buttons.push(<button type="button" data-bs-target="#highlight" data-bs-slide-to="0" className="active shadow-lg"></button>);
-		for (let i = 1; i<CarouselJson.length; i++)
+		for (let i = 0; i<CarouselJson.length; i++)
 		{ 
-      buttons.push(<button type="button" data-bs-target="#highlight" data-bs-slide-to={i} className="active shadow-lg"></button>);
+      var classActive = "shadow-lg";
+      if (i === 0){
+        classActive += " active";
+      }
+
+      buttons.push(<button type="button" key={CarouselJson[i].header} data-bs-target="#highlight" data-bs-slide-to={i} className={classActive}></button>);
 		}	
 
     return buttons;
@@ -23,12 +27,12 @@ export default function Carousel() {
     { 
       let classActive = "carousel-item";
 
-      if (i == 0){
+      if (i === 0){
         classActive += " active";
       }
 
       div.push(
-        <div className={classActive}>
+        <div className={classActive} key={CarouselJson[i].header}>
           <img src={CarouselJson[i].srcUrl} alt={CarouselJson[i].header} className="d-block" style={{width:"100%", height:"auto"}}/>
           <div className="carousel-caption text-shadow-medium shadow-lg BGCarouselText rounded-pill">
             <h3 className="h5">{CarouselJson[i].header}</h3>

@@ -1,9 +1,8 @@
 import {
   Routes,
   Route,
-  useLocation,
-  useNavigate
 } from "react-router-dom";
+import React from "react";
 import Homepage from "./Homepage";
 import Project from "./Project";
 
