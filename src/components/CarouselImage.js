@@ -43,7 +43,7 @@ export default function Carousel() {
   }
 
     return (
-    	<div className='bg-black d-flex justify-content-center align-items-center'>
+    	<div className='BGBrandColor d-flex justify-content-center align-items-center'>
 				<div id="highlight" className='carousel slide' data-bs-ride="carousel">
         {/* Indicators/dots */}
           <div className="carousel-indicators">
@@ -65,15 +65,3 @@ export default function Carousel() {
     );
     
 }
-
-// const CarouselImage = ({srcUrl, header, caption}) => {
-//     return (
-//         <div className="carousel-item">
-//         <img src={srcURL} alt={header} className="d-block img-responsive" style={{width:"100vw"}}/>
-//             <div className="carousel-caption">
-//                 <h3>{header}</h3>
-//                 <p>{caption}</p>
-//             </div>  
-//         </div>
-//     );
-// };
