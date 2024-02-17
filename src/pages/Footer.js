@@ -6,8 +6,7 @@ export default function Footer(){
             <div className="col-12 col-md-4"></div>
             <div className="col-12 col-md-4 d-flex justify-content-center text-white py-2">
                 <Link to="/" className="un-underline text-white px-2">Homepage</Link> | 
-                <Link to="/project" className="un-underline text-white px-2">Project</Link> | 
-                <Link to="/contact" className="un-underline text-white px-2">Contact</Link>
+                <Link to="/project" className="un-underline text-white px-2">Project</Link> 
             </div>
             <div className="col-12 col-md-4 text-end text-white py-2">
                 Made with
