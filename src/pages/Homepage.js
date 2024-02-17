@@ -1,5 +1,5 @@
-import Carousel from "./components/CarouselImage";
-import ProjectOverview from "./components/ProjectOverview";
+import Carousel from "../components/CarouselImage";
+import ProjectOverview from "../components/ProjectOverview";
 
 function Homepage() {
   return (

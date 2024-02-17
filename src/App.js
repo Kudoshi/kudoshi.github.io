@@ -3,8 +3,8 @@ import {
   Route,
 } from "react-router-dom";
 import React from "react";
-import Homepage from "./Homepage";
-import Project from "./Project";
+import Homepage from "./pages/Homepage";
+import Project from "./pages/Project";
 
 
 export default function App(){

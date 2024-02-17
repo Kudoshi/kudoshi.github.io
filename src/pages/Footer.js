@@ -11,7 +11,7 @@ export default function Footer(){
             </div>
             <div className="col-12 col-md-4 text-end text-white py-2">
                 Made with
-                <i class="bi bi-heart-fill px-2" style={{color: "rgb(255, 11, 11)"}}></i>
+                <i className="bi bi-heart-fill px-2" style={{color: "rgb(255, 11, 11)"}}></i>
                 with React
             </div>
         </div>

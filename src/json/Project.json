@@ -17,7 +17,7 @@
         ],
         "projectLink": "www.youtube.com",
         "pictureUrl": [
-            "./images/project/project_1_1.png",
+            "./images/carousel_01.png",
             "./images/project/project_1_2.png",
             "./images/project/project_1_3.png",
             "./images/project/project_1_4.png",
@@ -44,7 +44,6 @@
         "pictureUrl": [
             "./images/project/project_2_1.png",
             "./images/project/project_2_2.png",
-            "./images/project/project_2_3.png",
             "./images/project/project_2_4.png"
         ]
     },
@@ -67,6 +66,30 @@
         "pictureUrl": [
             "./images/project/project_3_1.png",
             "./images/project/project_3_2.png"
+        ]
+    },
+    {
+        "projectID" : "4",
+        "projectTitle" : "04 - Lorem Ipsum ",
+        "date" : "19/08/2023",
+        "description" : [
+            "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam vitae nisl vitae nulla pellentesque lacinia. Donec odio est, luctus ac lacus ut, maximus scelerisque sem. "
+            
+        ],
+        "projectType": "GAME",
+        "tag": [
+            "Unity",
+            "Action",
+            "Roguelike"
+        ],
+        "projectLink": "www.youtube.com",
+        "pictureUrl": [
+            "./images/project/project_3_1.png",
+            "./images/project/project_3_2.png",
+            "./images/project/project_2_2.png",
+            "./images/project/project_2_2.png",
+            "./images/project/project_2_2.png",
+            "./images/project/project_1_2.png"
         ]
     }
     
