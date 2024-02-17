@@ -24,9 +24,6 @@ export default function Header() {
                         <li className="nav-item px-2">
                             <Link to="/project" className="nav-link">Projects</Link>
                         </li>
-                        <li className="nav-item px-2">
-                            <Link to="/contact" className="nav-link">Contact</Link>
-                        </li>
                     </ul>
                 </div>
             </div>
