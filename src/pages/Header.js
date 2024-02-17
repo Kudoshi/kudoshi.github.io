@@ -7,7 +7,7 @@ export default function Header() {
             <div className="container-fluid px-4">
                 <div className="d-flex flex-row align-content-center justify-content-center">
                     <a className="navbar-brand" href="/">
-                        <img src="/images/website-logo.png" alt="Avatar Logo" style={{width:"50px"}} className="rounded-circle"/> 
+                        <img src="./Kudoshi-website/images/website-logo.png" alt="Avatar Logo" style={{width:"50px"}} className="rounded-circle"/> 
                     </a>
                     <Link to="/" className="h3 text-white align-self-center un-underline">
                         Kudoshi

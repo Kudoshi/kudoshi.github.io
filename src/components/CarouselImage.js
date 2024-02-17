@@ -33,7 +33,7 @@ export default function Carousel() {
 
       div.push(
         <div className={classActive} key={CarouselJson[i].header}>
-          <img src={CarouselJson[i].srcUrl} alt={CarouselJson[i].header} className="d-block" style={{width:"100%", height:"auto"}}/>
+          <img src={"./Kudoshi-website/"+CarouselJson[i].srcUrl} alt={CarouselJson[i].header} className="d-block" style={{width:"100%", height:"auto"}}/>
           <div className="carousel-caption text-shadow-medium shadow-lg BGCarouselText rounded-pill">
             <h3 className="h5">{CarouselJson[i].header}</h3>
             <p className="fs-6">{CarouselJson[i].caption}</p>

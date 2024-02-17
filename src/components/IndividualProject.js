@@ -1,10 +1,9 @@
 import { Link } from "react-router-dom";
-import { componentDidMount, useEffect, useState } from"react";
+import { useEffect } from"react";
 
 export default function IndividualProject(project){
 
-    const [imageSide, setImageSide] = useState('');
-    const [imageBelow, setImageBelow] = useState('');
+
 
     function GetWebsiteName(url) {
         // Remove 'www.' if it exists
@@ -42,12 +41,13 @@ export default function IndividualProject(project){
         var description = project.project.description;
         var div = [];
 
-        description.map(desc =>
-            {
-                div.push(<div>{desc}</div>);
-                div.push(<br/>);
-            }
-        );
+        for (let i = 0; i < description.length; i++)
+        {
+            div.push(
+                <div>{description[i]}</div>
+            );
+            div.push(<br/>);
+        }
         
         return div;
     }
@@ -60,36 +60,19 @@ export default function IndividualProject(project){
         for (var i = 1; i < img.length; i++)
         {
             div.push(
-                <img src={img[i]} alt={img[i]} key={img[i]} className="p-2 " style={{width:"300px", height:"169px"}} />
+                <img src={"./Kudoshi-website/"+img[i]} alt={img[i]} key={img[i]} className="p-2 " style={{width:"300px", height:"169px"}} />
             );
         }
 
         return div;
     }
 
-    useEffect(()=> {
-        var parent = document.getElementById("projectContainer");
-        var divHeight = parent.clientHeight;
-        console.log(parent.clientHeight);
-
-        if (divHeight <= 500)
-        {
-            setImageSide(DisplayOtherImage());
-            setImageBelow('');
-        }
-        else{
-            setImageSide('');
-            setImageBelow(DisplayOtherImage());
-        }
-        
-    });
-
     return(
         <div className="w-100 my-3">
             <div className="BGBrandColor d-flex flex-column" id="projectContainer">
                 <div className="row py-4">
                     <div className="col-md-3 d-flex flex-column mt-md-4 align-items-center p-4">
-                        <img src={project.project.pictureUrl[0]} alt={project.project.pictureUrl[0]} key={project.project.projectID} 
+                        <img src={"./Kudoshi-website/"+project.project.pictureUrl[0]} alt={project.project.pictureUrl[0]} key={project.project.projectID} 
                             className="py-2" style={{width: "100%", height:"auto"}}></img>
                         <div>
                             {
@@ -107,15 +90,12 @@ export default function IndividualProject(project){
                         <Link to={project.project.projectLink}>
                             <span className="bi bi-arrow-right display-2"></span>
                         </Link>
-                    </div>
+                    </div> 
                 </div>
                 <div className="row d-flex text-wrap p-4 justify-content-evenly">
-                    { imageBelow }
+                    { DisplayOtherImage() }
                 </div>
             </div>
-
-
-            {/* project project {console.log(project)} */}
         </div>
     );
 }

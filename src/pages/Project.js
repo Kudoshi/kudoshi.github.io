@@ -74,7 +74,7 @@ export default function Project({filter}){
 
     function DisplayProjects()
     {
-        if (project.length == 0)
+        if (project.length === 0)
             return (<div style={{minHeight:"250px"}} className="text-black text-center m-4 p-4">
                 No Projects Yet
             </div>);
