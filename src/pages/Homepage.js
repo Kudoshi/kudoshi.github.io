@@ -21,6 +21,30 @@ function Homepage() {
           <div className='px-5 py-2 font-abeezee-normal' style={{width: "100%"}}>
             Been making games since 2020. I love playing multiplayer games, doing poster designs, video creation and sharing my passion of game development with others. Started off as a software engineer before falling in love with game development. Also, I am a die-hard fan of Nasi Lemak
           </div>
+          <br/>
+          <div>Follow Me On</div>
+          <div className="d-flex justify-content-evenly align-items-center w-75 flex-wrap">
+            <div className="d-flex align-items-center">
+              <a href="https://www.instagram.com/kudoshi_creates/"><i className="bi bi-instagram text-white fs-3"></i></a>
+              <a href="https://www.instagram.com/kudoshi_creates/" className="text-white un-underline p-2" style={{fontSize:"0.85em"}}>Instagram</a>
+            </div>
+            <div className="d-flex align-items-center">
+              <a href="https://github.com/Kudoshi"><i className="bi bi-github text-white fs-3"></i></a>
+              <a href="https://github.com/Kudoshi" className="text-white un-underline p-2" style={{fontSize:"0.85em"}}>Github</a>
+            </div>
+           <div className="d-flex align-items-center">
+              <a href="https://www.youtube.com/channel/UC5B8uhuCF0v2v7YH9Tsy3-w"><i className="bi bi-youtube text-white fs-3"></i></a>
+              <a href="https://www.youtube.com/channel/UC5B8uhuCF0v2v7YH9Tsy3-w" className="text-white un-underline p-2" style={{fontSize:"0.85em"}}>Youtube</a>
+            </div>
+            <div className="d-flex align-items-center">
+              <a href="https://kudoshi.itch.io/"><img src="./images/logo-itch.png" style={{width:"1.5em", height:"1.5em"}}/></a>
+              <a href="https://kudoshi.itch.io/" className="text-white un-underline p-2" style={{fontSize:"0.85em"}}>Itch</a>
+            </div>
+            <div className="d-flex align-items-center">
+              <a href="mailto:brendenguan@live.com"><i className="bi bi-envelope-fill text-white fs-3"></i></a>
+              <a href="mailto:brendenguan@live.com" className="text-white un-underline p-2" style={{fontSize:"0.85em"}}>Email</a>
+            </div>
+          </div>
         </div>
       </div>
       <div className='bg-black' style={{height:"10vh"}}></div>
