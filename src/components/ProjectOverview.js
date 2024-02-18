@@ -12,7 +12,7 @@ export default function ProjectOverview() {
         {
             div.push(
                 <div className="d-flex flex-column justify-content-start align-items-center text-white " key={projectJSON[i].projectID} style={{maxWidth:"450px", height: "300px"}}>
-                    <img src={"./Kudoshi-website/"+projectJSON[i].pictureUrl[0]} alt={projectJSON[i].projectTitle} style={{width:"95%", height:"auto"}}></img>
+                    <img src={"/Kudoshi-website/"+projectJSON[i].pictureUrl[0]} alt={projectJSON[i].projectTitle} style={{width:"95%", height:"auto"}}></img>
                     <h1 className="h3 text-center text-wrap">{projectJSON[i].projectTitle}</h1>
                 </div>
             ); 
@@ -29,8 +29,8 @@ export default function ProjectOverview() {
                 </div>
 
                 <div className="d-flex justify-content-end align-items-center pb-2 pe-4">
-                    <Link to="/project" className="un-underline"><p className="text-white fs-5 pe-2" style={{margin: "0px", }}>See All Projects</p></Link>
-                    <Link to="/project"><i className="bi bi-arrow-right h1 text-white text-end display-1" style={{margin: "0px"}}></i></Link>
+                    <Link to="/Kudoshi-website/project" className="un-underline"><p className="text-white fs-5 pe-2" style={{margin: "0px", }}>See All Projects</p></Link>
+                    <Link to="/Kudoshi-website/project"><i className="bi bi-arrow-right h1 text-white text-end display-1" style={{margin: "0px"}}></i></Link>
                 </div>
                 
                     

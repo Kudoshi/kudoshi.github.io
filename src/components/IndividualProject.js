@@ -60,7 +60,7 @@ export default function IndividualProject(project){
         for (var i = 1; i < img.length; i++)
         {
             div.push(
-                <img src={"./Kudoshi-website/"+img[i]} alt={img[i]} key={img[i]} className="p-2 " style={{width:"300px", height:"169px"}} />
+                <img src={"/Kudoshi-website/"+img[i]} alt={img[i]} key={img[i]} className="p-2 " style={{width:"300px", height:"169px"}} />
             );
         }
 
@@ -72,7 +72,7 @@ export default function IndividualProject(project){
             <div className="BGBrandColor d-flex flex-column" id="projectContainer">
                 <div className="row py-4">
                     <div className="col-md-3 d-flex flex-column mt-md-4 align-items-center p-4">
-                        <img src={"./Kudoshi-website/"+project.project.pictureUrl[0]} alt={project.project.pictureUrl[0]} key={project.project.projectID} 
+                        <img src={"/Kudoshi-website/"+project.project.pictureUrl[0]} alt={project.project.pictureUrl[0]} key={project.project.projectID} 
                             className="py-2" style={{width: "100%", height:"auto"}}></img>
                         <div>
                             {

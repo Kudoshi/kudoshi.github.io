@@ -6,7 +6,7 @@ function Homepage() {
     <div className="App container-fluid m-0 p-0">
       <div className='d-md-flex justify-content-center align-items-center p-5 BGBrandColor text-white'>
         <div className='px-5 me-4 d-flex justify-content-center'>
-          <img src="./Kudoshi-website/images/kudo.png" alt="Kudo" style={{width:"250px"}} /> 
+          <img src="/Kudoshi-website/images/kudo.png" alt="Kudo" style={{width:"250px"}} /> 
         </div>
         <div className='d-flex flex-column justify-content-center align-items-center mt-3'>
           <div className='display-4 font-spartan-bold text-center text-wrap'>Brenden Tan "Kudoshi" Poh Guan</div>
@@ -37,7 +37,7 @@ function Homepage() {
               <a href="https://www.youtube.com/channel/UC5B8uhuCF0v2v7YH9Tsy3-w" className="text-white un-underline p-2" style={{fontSize:"0.85em"}}>Youtube</a>
             </div>
             <div className="d-flex align-items-center">
-              <a href="https://kudoshi.itch.io/"><img src="./Kudoshi-website/images/logo-itch.png" alt="itch.io" style={{width:"1.5em", height:"1.5em"}}/></a>
+              <a href="https://kudoshi.itch.io/"><img src="/Kudoshi-website/images/logo-itch.png" alt="itch.io" style={{width:"1.5em", height:"1.5em"}}/></a>
               <a href="https://kudoshi.itch.io/" className="text-white un-underline p-2" style={{fontSize:"0.85em"}}>Itch</a>
             </div>
             <div className="d-flex align-items-center">
