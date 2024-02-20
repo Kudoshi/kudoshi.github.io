@@ -21,7 +21,7 @@ export default function ProjectOverview() {
         return div;
     }
 
-    return (
+    return ( 
         <div className="d-flex justify-content-center p-md-5">
             <div className="d-flex flex-column BGBrandColor p-md-5 w-md-75 w-100 rounded">
                 <div className="d-flex flex-column flex-md-row justify-content-around align-items-center pt-4">
@@ -32,10 +32,6 @@ export default function ProjectOverview() {
                     <Link to="/Kudoshi-website/project" className="un-underline"><p className="text-white fs-5 pe-2" style={{margin: "0px", }}>See All Projects</p></Link>
                     <Link to="/Kudoshi-website/project"><i className="bi bi-arrow-right h1 text-white text-end display-1" style={{margin: "0px"}}></i></Link>
                 </div>
-                
-                    
-
-                
 
             </div>
 

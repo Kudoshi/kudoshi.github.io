@@ -27,7 +27,6 @@ export default function Project({filter}){
         
         setProject(projects);
         setCurrentProjectType("GAME");
-        console.log("Filter Game");
         setProjectLabel(projects.length + " Game Project");
     }
 
@@ -63,7 +62,6 @@ export default function Project({filter}){
 
     function ProjectFilterOther()
     {
-        console.log("Others")
         let projects = projectJSON.filter(proj => proj.projectType === "OTHER")
 
         setProject(projects);
@@ -80,7 +78,6 @@ export default function Project({filter}){
             </div>);
 
         return project.map(record =>{
-            console.log(record);
             return <IndividualProject project={record}/>
         })     
     }

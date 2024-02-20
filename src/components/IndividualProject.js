@@ -1,8 +1,38 @@
 import { Link } from "react-router-dom";
-import { useEffect } from"react";
+import { useEffect, useState } from"react";
+import { GetViewportSize} from "../misc/Util";
 
 export default function IndividualProject(project){
 
+    const [imgWidth, setImgWidth] = useState("250px");
+    const [imgHeight, setImgHeight] = useState("141px");
+
+    useEffect(() => {
+        // Function to handle resize
+        function handleImageResize() {
+            var viewportSize = GetViewportSize();
+            console.log(viewportSize);
+            if (viewportSize.width < 768)
+            {
+                setImgWidth("140px");
+                setImgHeight("80px");
+            }
+            else{
+                setImgWidth("250px");
+                setImgHeight("141px");
+            }
+
+            console.log('Window has been resized');
+        }
+    
+        // Add event listener for resize
+        window.addEventListener('resize', handleImageResize);
+    
+        // Remove event listener when component unmounts
+        return () => {
+          window.removeEventListener('resize', handleImageResize);
+        };
+      }, []);
 
 
     function GetWebsiteName(url) {
@@ -56,11 +86,10 @@ export default function IndividualProject(project){
     {
         var img = project.project.pictureUrl;
         var div = [];
-
         for (var i = 1; i < img.length; i++)
         {
             div.push(
-                <img src={"/Kudoshi-website/"+img[i]} alt={img[i]} key={img[i]} className="p-2 " style={{width:"180px", height:"101px"}} />
+                <img src={"/Kudoshi-website/"+img[i]} alt={img[i]} key={img[i]} className="my-2 mx-md-3" style={{width: imgWidth, height: imgHeight}} id={img[i]}/>
             );
         }
 
@@ -92,8 +121,13 @@ export default function IndividualProject(project){
                         </Link>
                     </div> 
                 </div>
-                <div className="row d-flex text-wrap p-4 justify-content-evenly m-0">
-                    { DisplayOtherImage() }
+                <div className="row m-0">
+                    <div className="col-md-1"></div>
+                    <div className="col-md-10 d-flex text-wrap p-4 justify-content-evenly flex-wrap">
+                        { DisplayOtherImage() }
+                    </div>
+                    
+                    <div className="col-md-1"></div>|
                 </div>
             </div>
         </div>
