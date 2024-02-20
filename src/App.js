@@ -12,6 +12,7 @@ export default function App(){
     <Routes>
       <Route path="/" element={<Homepage/>}/>
       <Route path="/Kudoshi-website/" element={<Homepage/>}/>
+      <Route path="/Kudoshi-website/*" element={<Homepage/>}/>
       <Route path="/Kudoshi-website/project" element={<Project/>}/>
       <Route path="*" element={<Homepage/>}/>
     </Routes>
