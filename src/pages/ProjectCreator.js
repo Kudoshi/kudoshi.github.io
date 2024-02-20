@@ -51,7 +51,7 @@ function DisplayCreatorForm()
 
         // Convert the comma-separated tags into an array
         let tagsArray;
-        if (formData.description.includes(","))
+        if (value.includes(","))
         {
             tagsArray = value.split(',').map(tag => tag.trim());
         }
