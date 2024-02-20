@@ -5,6 +5,7 @@ import {
 import React from "react";
 import Homepage from "./pages/Homepage";
 import Project from "./pages/Project";
+import ProjectCreator from "./pages/ProjectCreator";
 
 
 export default function App(){
@@ -14,6 +15,7 @@ export default function App(){
       <Route path="/Kudoshi-website/" element={<Homepage/>}/>
       <Route path="/Kudoshi-website/*" element={<Homepage/>}/>
       <Route path="/Kudoshi-website/project" element={<Project/>}/>
+      <Route path="/project-creator" element={<ProjectCreator/>}/>
       <Route path="*" element={<Homepage/>}/>
     </Routes>
   )
