@@ -1,4 +1,4 @@
-import { useState, useEffect, useRef } from "react";
+import { useState, useEffect } from "react";
 import data from "../json/Project.json";
 
 export default function ProjectCreator()
@@ -96,6 +96,16 @@ function DisplayCreatorForm()
             description: descriptionArray,
             pictureUrl: [...formData.pictureUrl, ...pictureUrls]
         };
+
+        // Copy the JSON to the clipboard
+        navigator.clipboard.writeText(JSON.stringify(updatedFormData, null, 4))
+        .then(() => {
+            alert('Form data JSON copied to clipboard');
+        })
+        .catch((err) => {
+            alert('Failed to copy form data JSON to clipboard:', err);
+        });
+
     
         console.log(updatedFormData);
     };
