@@ -96,6 +96,31 @@ export default function IndividualProject(project){
         return div;
     }
 
+    function DisplayToWebsite()
+    {
+
+        if (project.project.projectLink)
+        {
+            var websiteName = GetWebsiteName(project.project.projectLink);
+            if (!websiteName)
+            {
+                websiteName = "LINK PROVIDED NOT A VALID LINK";
+            }
+
+            return(
+            <div>
+                <div>To {websiteName}</div>
+                <Link to={project.project.projectLink}>
+                    <span className="bi bi-arrow-right display-2"></span>
+                </Link>
+            </div>
+            );
+            
+        }     
+        
+    }
+
+
     return(
         <div >
             <div className="BGBrandColor d-flex flex-column my-2 py-4" id="projectContainer">
@@ -115,10 +140,7 @@ export default function IndividualProject(project){
                         <div className="px-4 pt-2 fs-6 text-wrap">{DisplayDescription()}</div>
                     </div>
                     <div className="col-md-2 d-flex flex-column justify-content-center align-items-center text-white">
-                        <div>To {GetWebsiteName(project.project.projectLink)}</div>
-                        <Link to={project.project.projectLink}>
-                            <span className="bi bi-arrow-right display-2"></span>
-                        </Link>
+                        { DisplayToWebsite()}
                     </div> 
                 </div>
                 <div className="row m-0">
