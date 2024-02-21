@@ -50,19 +50,19 @@ function Homepage() {
       <div className='bg-black' style={{height:"10vh"}}></div>
       <div className='d-flex flex-column flex-md-row justify-content-evenly align-items-center px-5 BGWhitePassive py-4'>
         <div className='text-center BGBrandColorPassive text-white d-flex flex-column justify-content-center my-2' style={{width: "300px", height:"300px"}}>
-          <p className='fw-bold display-2'>18</p>
+          <p className='fw-bold display-2'>8</p>
           <br/>
           <p className='font-abeezee-normal h5 pt-3'>Game Jams Participated</p>
         </div>
         <div className='text-center BGBrandColorPassive text-white d-flex flex-column justify-content-center my-2' style={{width: "300px", height:"300px"}}>
-          <p className='fw-bold display-2'>18</p>
+          <p className='fw-bold display-2'>19</p>
           <br/>
-          <p className='font-abeezee-normal h5 pt-3'>Game Jams Participated</p>
+          <p className='font-abeezee-normal h5 pt-3'>Games Made</p>
         </div>
         <div className='text-center BGBrandColorPassive text-white d-flex flex-column justify-content-center my-2' style={{width: "300px", height:"300px"}}>
-          <p className='fw-bold display-2'>18</p>
+          <p className='fw-bold display-2'>1</p>
           <br/>
-          <p className='font-abeezee-normal h5 pt-3'>Game Jams Participated</p>
+          <p className='font-abeezee-normal h5 pt-3'>Published App</p>
         </div>
         
       </div>

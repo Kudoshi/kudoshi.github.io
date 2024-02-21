@@ -26,11 +26,14 @@ function DisplayCreatorForm()
         description: '',
         projectType: 'GAME',
         tag: '',
-        projectLink: '',
+        projectLink: [],
         pictureUrl: []
       });
     
     const [numOfImg, setNumOfImg] = useState(0);
+    const [linkSite, setLinkSite] = useState('');
+    const [linkUrl, setLinkUrl] = useState('');
+
 
     useEffect(() => {
         setProjectID();
@@ -70,6 +73,23 @@ function DisplayCreatorForm()
         }));
     }
  
+    const handleAddLink = () => {
+        // When adding a link
+        setFormData(prevData => ({
+            ...prevData,
+            projectLink: [
+                ...prevData.projectLink,
+                {
+                    linkSite: linkSite,
+                    linkUrl: linkUrl
+                }
+            ]
+        }));
+        // Clear input fields after adding a link
+        setLinkSite('');
+        setLinkUrl('');
+    };
+
     const handleImgNumChange = (e) => {
         const { value } = e.target;
         
@@ -95,7 +115,7 @@ function DisplayCreatorForm()
             descriptionArray = [formData.description];
         }
 
-        const pictureUrls = Array.from({ length: numOfImg }, (_, index) => `./images/project/project_${formData.projectID + 1}_${index + 1}.png`);
+        const pictureUrls = Array.from({ length: numOfImg }, (_, index) => `./images/project/project_${formData.projectID}_${index + 1}.png`);
         const updatedFormData = {
             ...formData,
             description: descriptionArray,
@@ -151,8 +171,29 @@ function DisplayCreatorForm()
                 <small className="form-text text-muted">Separate tags by comma (e.g., tag1, tag2, tag3)</small>
                 </div>
                 <div className="form-group">
-                <label>Project Link:</label>
-                <input type="text" name="projectLink" value={formData.projectLink} onChange={handleChange} className="form-control" />
+                    {/* Input fields for link site and URL */}
+                    <input
+                        type="text"
+                        value={linkSite}
+                        onChange={e => setLinkSite(e.target.value)}
+                        placeholder="Enter Link Site"
+                    />
+                    <input
+                        type="text"
+                        value={linkUrl}
+                        onChange={e => setLinkUrl(e.target.value)}
+                        placeholder="Enter Link URL"
+                    />
+                    {/* Button to add the link */}
+                    <button type="button" onClick={handleAddLink}>Add Link</button>
+                    {/* Display existing links */}
+                    <ul>
+                        {formData.projectLink.map((link, index) => (
+                            <li key={index}>
+                                <a href={link.linkUrl}>{link.linkSite}</a>
+                            </li>
+                        ))}
+                    </ul>
                 </div>
                 <div className="form-group">
                 <label>Number of Images:</label>
