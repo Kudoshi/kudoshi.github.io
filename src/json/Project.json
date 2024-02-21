@@ -1,23 +1,34 @@
 [
     {
-        "projectID" : "1",
-        "projectTitle" : "Lorem Ipsum My Project Title Over Here",
-        "date" : "19/08/2023",
-        "description" : [
-            "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam vitae nisl vitae nulla pellentesque lacinia. Donec odio est, luctus ac lacus ut, maximus scelerisque sem. Morbi sollicitudin, lorem id bibendum rutrum, arcu ipsum tempus eros, ut ullamcorper urna ipsum ut erat. Duis venenatis tempor mauris tempor volutpat. Donec ligula enim, aliquet a maximus quis, mollis vitae magna. Curabitur quis erat eleifend enim consectetur lobortis in egestas risus. Aenean convallis velit vitae massa fermentum vulputate. Etiam varius vehicula augue.",
-            "Phasellus varius elit et magna convallis laoreet. Nulla in pharetra turpis, id ornare sapien. Proin tincidunt magna ut ligula congue gravida. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Donec aliquam ante velit, eget lobortis ipsum faucibus ut. Vestibulum metus est, ultricies ac scelerisque vitae, bibendum nec justo. Curabitur aliquam, nunc et consequat faucibus, ligula leo vulputate massa, ac pulvinar ipsum libero et leo. Nulla varius interdum ante, gravida egestas dolor convallis eget. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Cras eget ex id tortor luctus pretium bibendum sed diam. Mauris facilisis sollicitudin ante a bibendum. Donec nisl neque, condimentum at ante ut, luctus lobortis justo. Fusce vestibulum sagittis eros, quis condimentum nisl congue convallis. Nam sed ullamcorper nisl.",
-            "No other choice but to do it this way though",
-            "Do be like that"
+        "projectID": "0",
+        "projectTitle": "Tree Tag Tremble",
+        "date": "27/4/2020",
+        "description": [
+            "A recreation of Warcraft 3's massively popular Tree Tag Tremble made in Dota 2's Hammer Editor having over 1000+ player subscribers.",
+            "",
+            "A hide and seek tag game where the \"Inferno\" chases after the \"Ent\" while the Ent tries to survive.",
+            "",
+            "Developed together with TeddehMiracle and [N]ightwing"
         ],
         "projectType": "GAME",
         "tag": [
-            "Unity",
-            "Action",
-            "Roguelike"
+            "dota-2", 
+            "lua",
+            "hammer-editor",
+            "game"
         ],
-        "projectLink": "www.youtube.com",
+        "projectLink": [
+            {
+                "linkSite" : "Steam Workshop",
+                "linkUrl" : "https://steamcommunity.com/sharedfiles/filedetails/?id=2075256320"
+            },
+            {
+                "linkSite" : "Github",
+                "linkUrl" : "https://github.com/Kudoshi/tree_tag_tremble_game_site/tree/master"
+            }
+        ], 
         "pictureUrl": [
-            "./images/carousel_01.png",
+            "./images/project/project_1_1.png",
             "./images/project/project_1_2.png",
             "./images/project/project_1_3.png",
             "./images/project/project_1_4.png",
@@ -25,91 +36,33 @@
         ]
     },
     {
-        "projectID" : "2",
-        "projectTitle" : "02 - Lorem Ipsum My Project Title",
-        "date" : "19/08/2023",
-        "description" : [
-            "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam vitae nisl vitae nulla pellentesque lacinia. Donec odio est, luctus ac lacus ut, maximus scelerisque sem. Morbi sollicitudin, lorem id bibendum rutrum, arcu ipsum tempus eros, ut ullamcorper urna ipsum ut erat. Duis venenatis tempor mauris tempor volutpat. Donec ligula enim, aliquet a maximus quis, mollis vitae magna. Curabitur quis erat eleifend enim consectetur lobortis in egestas risus. Aenean convallis velit vitae massa fermentum vulputate. Etiam varius vehicula augue.",
-            "Phasellus varius elit et magna convallis laoreet. Nulla in pharetra turpis, id ornare sapien. Proin tincidunt magna ut ligula congue gravida. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Donec aliquam ante velit, eget lobortis ipsum faucibus ut. Vestibulum metus est, ultricies ac scelerisque vitae, bibendum nec justo. Curabitur aliquam, nunc et consequat faucibus, ligula leo vulputate massa, ac pulvinar ipsum libero et leo. Nulla varius interdum ante, gravida egestas dolor convallis eget. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Cras eget ex id tortor luctus pretium bibendum sed diam. Mauris facilisis sollicitudin ante a bibendum. Donec nisl neque, condimentum at ante ut, luctus lobortis justo. Fusce vestibulum sagittis eros, quis condimentum nisl congue convallis. Nam sed ullamcorper nisl.",
-            "No other choice but to do it this way though",
-            "Do be like that"
-        ],
-        "projectType": "VIDEO",
-        "tag": [
-            "Unity",
-            "Action",
-            "Roguelike"
-        ],
-        "projectLink": "www.youtube.com",
-        "pictureUrl": [
-            "./images/project/project_2_1.png",
-            "./images/project/project_2_2.png",
-            "./images/project/project_2_4.png"
-        ]
-    },
-    {
-        "projectID" : "3",
-        "projectTitle" : "03 - Lorem Ipsum ",
-        "date" : "19/08/2023",
-        "description" : [
-            "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam vitae nisl vitae nulla pellentesque lacinia. Donec odio est, luctus ac lacus ut, maximus scelerisque sem. Morbi sollicitudin, lorem id bibendum rutrum, arcu ipsum tempus eros, ut ullamcorper urna ipsum ut erat. Duis venenatis tempor mauris tempor volutpat. Donec ligula enim, aliquet a maximus quis, mollis vitae magna. Curabitur quis erat eleifend enim consectetur lobortis in egestas risus. Aenean convallis velit vitae massa fermentum vulputate. Etiam varius vehicula augue.",
-            "Phasellus varius elit et magna convallis laoreet. Nulla in pharetra turpis, id ornare sapien. Proin tincidunt magna ut ligula congue gravida. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Donec aliquam ante velit, eget lobortis ipsum faucibus ut. Vestibulum metus est, ultricies ac scelerisque vitae, bibendum nec justo. Curabitur aliquam, nunc et consequat faucibus, ligula leo vulputate massa, ac pulvinar ipsum libero et leo. Nulla varius interdum ante, gravida egestas dolor convallis eget. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Cras eget ex id tortor luctus pretium bibendum sed diam. Mauris facilisis sollicitudin ante a bibendum. Donec nisl neque, condimentum at ante ut, luctus lobortis justo. Fusce vestibulum sagittis eros, quis condimentum nisl congue convallis. Nam sed ullamcorper nisl."
-            
-        ],
-        "projectType": "ART",
-        "tag": [
-            "Unity",
-            "Action",
-            "Roguelike"
-        ],
-        "projectLink": "www.youtube.com",
-        "pictureUrl": [
-            "./images/project/project_3_1.png",
-            "./images/project/project_3_2.png"
-        ]
-    },
-    {
-        "projectID" : "4",
-        "projectTitle" : "04 - Lorem Ipsum ",
-        "date" : "19/08/2023",
-        "description" : [
-            "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam vitae nisl vitae nulla pellentesque lacinia. Donec odio est, luctus ac lacus ut, maximus scelerisque sem. "
-            
+        "projectID": "1",
+        "projectTitle": "Volleyball 2D",
+        "date": "16/11/2020",
+        "description": [
+            "A local multiplayer volleyball game where you have to hit the ball across the net to the opponent's side",
+            "",
+            "Features a dash, boost and a 3 hit ball possession mechanic"
         ],
         "projectType": "GAME",
         "tag": [
-            "Unity",
-            "Action",
-            "Roguelike"
+            "unity",
+            "2D",
+            "sports",
+            "local-multiplayer"
         ],
-        "projectLink": "www.youtube.com",
+        "projectLink": [
+            {
+                "linkSite" : "Itch.io",
+                "linkUrl" : "https://kudoshi.itch.io/volleyball-2d"
+            }
+        ],
         "pictureUrl": [
-            "./images/project/project_3_1.png",
-            "./images/project/project_3_2.png",
+            "./images/project/project_2_1.png",
             "./images/project/project_2_2.png",
-            "./images/project/project_2_2.png",
-            "./images/project/project_2_2.png",
-            "./images/project/project_1_2.png"
-        ]
-    },
-    {
-        "projectID": "5",
-        "projectTitle": "asdf",
-        "date": "asdf",
-        "description": [
-            "asdf"
-        ],
-        "projectType": "",
-        "tag": [
-            "asdfasdf,asdf"
-        ],
-        "projectLink": "asdf",
-        "pictureUrl": [
-            "./images/project/project_5_1.png",
-            "./images/project/project_5_2.png"
+            "./images/project/project_2_3.png",
+            "./images/project/project_2_4.png"
         ]
     }
-    
-    
 ]
 

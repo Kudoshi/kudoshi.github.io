@@ -34,26 +34,6 @@ export default function IndividualProject(project){
         };
       }, []);
 
-
-    function GetWebsiteName(url) {
-        // Remove 'www.' if it exists
-        url = url.replace('www.', '');
-
-        // Remove 'https://' or 'http://' if they exist
-        url = url.replace('https://', '').replace('http://', '');
-
-        // Find the indices of the first and second dots
-        var firstDotIndex = url.indexOf('.');
-        var secondDotIndex = url.indexOf('.', firstDotIndex + 1);
-
-        // Extract the middle part between the first and second dots
-        var websiteName = url.substring(firstDotIndex + 1, secondDotIndex);
-
-        // Uppercase the first letter
-        websiteName = websiteName.charAt(0).toUpperCase() + websiteName.slice(1);
-        return websiteName;
-    }
-
     function DisplayTag(){
         var div = [];
         for (let i = 0; i < project.project.tag.length; i++)
@@ -74,9 +54,8 @@ export default function IndividualProject(project){
         for (let i = 0; i < description.length; i++)
         {
             div.push(
-                <div>{description[i]}</div>
+                <div className="py-1">{description[i]}</div>
             );
-            div.push(<br/>);
         }
         
         return div;
@@ -101,21 +80,26 @@ export default function IndividualProject(project){
 
         if (project.project.projectLink)
         {
-            var websiteName = GetWebsiteName(project.project.projectLink);
-            if (!websiteName)
+            if (project.project.projectLink.length === 0)
             {
-                websiteName = "LINK PROVIDED NOT A VALID LINK";
+                return;
             }
 
-            return(
-            <div>
-                <div>To {websiteName}</div>
-                <Link to={project.project.projectLink}>
-                    <span className="bi bi-arrow-right display-2"></span>
-                </Link>
-            </div>
-            );
+            var div = [];
+
+            for (let i = 0; i < project.project.projectLink.length; i++)
+            {
+                div.push(
+                    <div className="text-center my-2">
+                        <div>To {project.project.projectLink[i].linkSite}</div>
+                        <Link to={project.project.projectLink[i].linkUrl}>
+                            <span className="bi bi-arrow-right display-2"></span>
+                        </Link>
+                    </div>
+                );
+            }
             
+            return div;
         }     
         
     }

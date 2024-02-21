@@ -10,7 +10,12 @@ export default function ProjectOverview() {
         
         for (let i = projectJSON.length-PROJECT_SHOW_COUNT; i<projectJSON.length; i++)
         {
+            if (!projectJSON[i]) continue;
+
+            console.log(projectJSON);
+            console.log(projectJSON[i].pictureUrl);
             div.push(
+                
                 <div className="d-flex flex-column justify-content-start align-items-center text-white " key={projectJSON[i].projectID} style={{maxWidth:"450px", height: "300px"}}>
                     <img src={"/Kudoshi-website/"+projectJSON[i].pictureUrl[0]} alt={projectJSON[i].projectTitle} style={{width:"95%", height:"auto"}}></img>
                     <h1 className="h3 text-center text-wrap">{projectJSON[i].projectTitle}</h1>

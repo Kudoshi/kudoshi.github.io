@@ -24,7 +24,7 @@ function DisplayCreatorForm()
         projectTitle: '',
         date: '',
         description: '',
-        projectType: '',
+        projectType: 'GAME',
         tag: '',
         projectLink: '',
         pictureUrl: []
@@ -37,8 +37,13 @@ function DisplayCreatorForm()
     }, []);
 
     const setProjectID = () =>{
-        var projectID = parseInt(data[data.length-1].projectID);
-        projectID ++;
+        var projectID = 0;
+        if (data.length > 0)
+        {
+            var projectID = parseInt(data[data.length-1].projectID);
+            projectID ++;
+        }
+        
         setFormData(prevData => ({
             ...prevData,
             projectID: projectID.toString() // Assuming projectID is a string in formData
@@ -90,7 +95,7 @@ function DisplayCreatorForm()
             descriptionArray = [formData.description];
         }
 
-        const pictureUrls = Array.from({ length: numOfImg }, (_, index) => `./images/project/project_${formData.projectID}_${index + 1}.png`);
+        const pictureUrls = Array.from({ length: numOfImg }, (_, index) => `./images/project/project_${formData.projectID + 1}_${index + 1}.png`);
         const updatedFormData = {
             ...formData,
             description: descriptionArray,
@@ -197,7 +202,14 @@ function DisplayDataForm()
                             ))}
                             </ul>
                         </td>
-                        <td>{project.projectLink}</td>
+                        <td>
+                            {
+                                project.projectLink.map((link, index) =>{
+                                    return  <div>{link.linkSite} | {link.linkUrl}</div>
+                                })
+                                
+                            }
+                        </td>
                         <td>
                             <ul>
                             {project.pictureUrl.map((url, index) => (
