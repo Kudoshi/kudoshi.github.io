@@ -132,7 +132,6 @@ function DisplayCreatorForm()
         });
 
     
-        console.log(updatedFormData);
     };
 
     return (

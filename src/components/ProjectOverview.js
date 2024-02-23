@@ -12,8 +12,6 @@ export default function ProjectOverview() {
         {
             if (!projectJSON[i]) continue;
 
-            console.log(projectJSON);
-            console.log(projectJSON[i].pictureUrl);
             div.push(
                 
                 <div className="d-flex flex-column justify-content-start align-items-center text-white " key={projectJSON[i].projectID} style={{maxWidth:"450px", height: "300px"}}>

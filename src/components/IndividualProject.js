@@ -11,7 +11,6 @@ export default function IndividualProject(project){
         // Function to handle resize
         function handleImageResize() {
             var viewportSize = GetViewportSize();
-            console.log(viewportSize);
             if (viewportSize.width < 768)
             {
                 setImgWidth("140px");
@@ -22,7 +21,6 @@ export default function IndividualProject(project){
                 setImgHeight("141px");
             }
 
-            console.log('Window has been resized');
         }
     
         // Add event listener for resize
