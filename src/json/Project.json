@@ -601,6 +601,171 @@
             "./images/project/project_20_3.png",
             "./images/project/project_20_4.png"
         ]
+    },
+    {
+        "projectID": "21",
+        "projectTitle": "Kantan Simple Total Timer",
+        "date": "21/11/2021",
+        "description": [
+            "An android mobile previously released in Google play store that is used to track total time. User is able to record a time and add it to the total time. Can be used to track total time studying, working or gaming.",
+            "",
+            "Made in Unity"
+        ],
+        "projectType": "PROGRAMMING",
+        "tag": [
+            "unity",
+            "mobile-app"
+        ],
+        "projectLink": [],
+        "pictureUrl": [
+            "./images/project/project_21_1.png",
+            "./images/project/project_21_2.png",
+            "./images/project/project_21_3.png"
+        ]
+    },
+    {
+        "projectID": "22",
+        "projectTitle": "Fishytable Market",
+        "date": "10/12/2021",
+        "description": [
+            "A fresh produce shopping website made for Malaysian farmers and fishermen to sell their fresh produce to customers similar to Shopee.",
+            "",
+            "In charge of the seller user role whereby seller can manage their product listings and view their orders from customers.",
+            "",
+            "Made in pure HTML, CSS, JS, Bootstrap and PHP connected to a local MySQL Database"
+        ],
+        "projectType": "GAME",
+        "tag": [
+            "website"
+        ],
+        "projectLink": [
+            {
+                "linkSite": "Github",
+                "linkUrl": "https://github.com/Kudoshi/fishytablemarket"
+            }
+        ],
+        "pictureUrl": [
+            "./images/project/project_22_1.png",
+            "./images/project/project_22_2.png",
+            "./images/project/project_22_3.png",
+            "./images/project/project_22_4.png"
+        ]
+    },
+    {
+        "projectID": "23",
+        "projectTitle": "JVendor",
+        "date": "14/4/2022",
+        "description": [
+            "A modern looking vending machine app made to imitate the UI of a screen-vending machine.",
+            "Customer is able view items and purchase items. Admin can manage item listings and see transaction history.",
+            "",
+            "Made in Java using Swing GUI utilizing text file as data storage for university's Java OOP assignment"
+        ],
+        "projectType": "PROGRAMMING",
+        "tag": [
+            "app",
+            "java",
+            "swing-gui"
+        ],
+        "projectLink": [],
+        "pictureUrl": [
+            "./images/project/project_23_1.png",
+            "./images/project/project_23_2.png",
+            "./images/project/project_23_3.png",
+            "./images/project/project_23_4.png",
+            "./images/project/project_23_5.png"
+        ]
+    },
+    {
+        "projectID": "24",
+        "projectTitle": "Unicom - Universal Competition Hosting ",
+        "date": "22/3/2022",
+        "description": [
+            "A competition hosting website to host and join any kind of event. 3 user role : user, organizer and admin",
+            "",
+            "Created using MERN stack(MongoDB, express, React and Node.js) connected to cloud MongoDB"
+        ],
+        "projectType": "PROGRAMMING",
+        "tag": [
+            "website",
+            "mern-stack",
+            "react"
+        ],
+        "projectLink": [],
+        "pictureUrl": [
+            "./images/project/project_24_1.png",
+            "./images/project/project_24_2.png",
+            "./images/project/project_24_3.png",
+            "./images/project/project_24_4.png"
+        ]
+    },
+    {
+        "projectID": "25",
+        "projectTitle": "Chat System - Many to one",
+        "date": "17/8/2022",
+        "description": [
+            "A chat app demo project similar to Whatsapp where many clients are able to message to one client server",
+            "Connect users via TCP Connection using multi-thread",
+            "",
+            "Made with C# using WPF utilizing MVC style"
+        ],
+        "projectType": "PROGRAMMING",
+        "tag": [
+            "c#",
+            "wpf",
+            "chat-system"
+        ],
+        "projectLink": [],
+        "pictureUrl": [
+            "./images/project/project_25_1.png",
+            "./images/project/project_25_2.png"
+        ]
+    },
+    {
+        "projectID": "26",
+        "projectTitle": "flutter mai-mai",
+        "date": "7/4/2023",
+        "description": [
+            "A rhythm game where you tap the lighted up buttons according to the beat of the music",
+            "",
+            "Made in flutter for Flutter Frenzy Workshop"
+        ],
+        "projectType": "PROGRAMMING",
+        "tag": [
+            "flutter",
+            "game"
+        ],
+        "projectLink": [],
+        "pictureUrl": [
+            "./images/project/project_26_1.png",
+            "./images/project/project_26_2.png",
+            "./images/project/project_26_3.png"
+        ]
+    },
+    {
+        "projectID": "27",
+        "projectTitle": "iipet - Gamifying Insurance Loyalty App ",
+        "date": "6/7/2023",
+        "description": [
+            "A proof-of-concept pet raising gamified Insurance loyalty app where it revolves around rewarding user via the pet system",
+            "",
+            "Developed with 5 other developers where I worked on the backend.",
+            "The project won the TuneProtect's Hackathon 2023",
+            "",
+            "Made with Angular connected to fastAPI and firebase"
+        ],
+        "projectType": "PROGRAMMING",
+        "tag": [
+            "app",
+            "backend"
+        ],
+        "projectLink": [],
+        "pictureUrl": [
+            "./images/project/project_27_1.png",
+            "./images/project/project_27_2.png",
+            "./images/project/project_27_3.png",
+            "./images/project/project_27_4.png"
+        ]
     }
 ]
 
