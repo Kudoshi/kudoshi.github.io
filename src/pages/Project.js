@@ -4,28 +4,28 @@ import IndividualProject from "../components/IndividualProject";
 import { parseDateStringToDate } from "../misc/Util";
 
 export default function Project({filter}){
-
+    let projectList = projectJSON;
     const [project, setProject] = useState(projectJSON);
     const [currentProjectType, setCurrentProjectType] = useState('ALL');
     const [projectLabel, setProjectLabel] = useState("All Project");
 
     useEffect(() => {
-        console.log(projectJSON.sort((a, b) => parseDateStringToDate(a.date) - parseDateStringToDate(b.date)));
-        console.log(parseDateStringToDate(projectJSON[0].date));
-        setProject(projectJSON.sort((a, b) => parseDateStringToDate(b.date) - parseDateStringToDate(a.date)));
+        projectList = projectJSON.sort((a, b) => parseDateStringToDate(b.date) - parseDateStringToDate(a.date));        setProject();
+    
+        ProjectFilterAll();
     }, [])
     
 
     function ProjectFilterAll()
     {
-        setProject(projectJSON);
+        setProject(projectList);
         setCurrentProjectType("ALL");
-        setProjectLabel(projectJSON.length + " All Project");
+        setProjectLabel(projectList.length + " All Project");
     }
      
     function ProjectFilterGame()
     {
-        let projects = projectJSON.filter(proj => proj.projectType === "GAME");
+        let projects = projectList.filter(proj => proj.projectType === "GAME");
         
         setProject(projects);
         setCurrentProjectType("GAME");
@@ -34,7 +34,7 @@ export default function Project({filter}){
 
     function ProjectFilterProgramming()
     {
-        let projects = projectJSON.filter(proj => proj.projectType === "PROGRAMMING")
+        let projects = projectList.filter(proj => proj.projectType === "PROGRAMMING")
 
         setProject(projects);
         setCurrentProjectType("PROGRAMMING");
@@ -44,7 +44,7 @@ export default function Project({filter}){
 
     function ProjectFilterVideo()
     {
-        let projects = projectJSON.filter(proj => proj.projectType === "VIDEO")
+        let projects = projectList.filter(proj => proj.projectType === "VIDEO")
 
         setProject(projects);
         setCurrentProjectType("VIDEO");
@@ -54,7 +54,7 @@ export default function Project({filter}){
 
     function ProjectFilterArt()
     {
-        let projects = projectJSON.filter(proj => proj.projectType === "ART")
+        let projects = projectList.filter(proj => proj.projectType === "ART")
 
         setProject(projects);
         setCurrentProjectType("ART");
@@ -64,7 +64,7 @@ export default function Project({filter}){
 
     function ProjectFilterOther()
     {
-        let projects = projectJSON.filter(proj => proj.projectType === "OTHER")
+        let projects = projectList.filter(proj => proj.projectType === "OTHER")
 
         setProject(projects);
         setCurrentProjectType("OTHER");
