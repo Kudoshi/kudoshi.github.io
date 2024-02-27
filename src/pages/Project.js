@@ -102,9 +102,9 @@ export default function Project({filter}){
                     <div onClick={ProjectFilterAll} className={ProjectTypeClass("ALL")} >ALL</div>
                     <div onClick={ProjectFilterGame} className={ProjectTypeClass("GAME")}>GAME</div>
                     <div onClick={ProjectFilterProgramming} className={ProjectTypeClass("PROGRAMMING")}>PROGRAMMING</div>
-                    <div onClick={ProjectFilterVideo} className={ProjectTypeClass("VIDEO")}>VIDEO</div>
+                    {/* <div onClick={ProjectFilterVideo} className={ProjectTypeClass("VIDEO")}>VIDEO</div>
                     <div onClick={ProjectFilterArt} className={ProjectTypeClass("ART")}>ART</div>
-                    <div onClick={ProjectFilterOther} className={ProjectTypeClass("OTHER")}>OTHER</div>
+                    <div onClick={ProjectFilterOther} className={ProjectTypeClass("OTHER")}>OTHER</div> */}
                 
                 </div>
             </div>
