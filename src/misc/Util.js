@@ -17,3 +17,14 @@ export function GetViewportSize() {
         };
     }
 }
+
+export function parseDateStringToDate(dateString) {
+    // Split the date string into day, month, and year components
+    const [day, month, year] = dateString.split('/').map(Number);
+
+    // Create a Date object
+    // Note: In JavaScript, months are zero-indexed, so we need to subtract 1 from the month
+    const dateObject = new Date(year, month - 1, day);
+
+    return dateObject;
+}

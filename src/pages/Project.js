@@ -1,26 +1,28 @@
 import { useState, useEffect } from "react";
 import projectJSON from "../json/Project.json";
 import IndividualProject from "../components/IndividualProject";
+import { parseDateStringToDate } from "../misc/Util";
 
 export default function Project({filter}){
 
     const [project, setProject] = useState(projectJSON);
     const [currentProjectType, setCurrentProjectType] = useState('ALL');
     const [projectLabel, setProjectLabel] = useState("All Project");
-    
+
     useEffect(() => {
-      ProjectFilterAll();
+        console.log(projectJSON.sort((a, b) => parseDateStringToDate(a.date) - parseDateStringToDate(b.date)));
+        console.log(parseDateStringToDate(projectJSON[0].date));
+        setProject(projectJSON.sort((a, b) => parseDateStringToDate(b.date) - parseDateStringToDate(a.date)));
     }, [])
     
 
     function ProjectFilterAll()
     {
-
         setProject(projectJSON);
         setCurrentProjectType("ALL");
         setProjectLabel(projectJSON.length + " All Project");
     }
-    
+     
     function ProjectFilterGame()
     {
         let projects = projectJSON.filter(proj => proj.projectType === "GAME");
