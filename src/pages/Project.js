@@ -10,7 +10,8 @@ export default function Project({filter}){
     const [projectLabel, setProjectLabel] = useState("All Project");
 
     useEffect(() => {
-        projectList = projectJSON.sort((a, b) => parseDateStringToDate(b.date) - parseDateStringToDate(a.date));        setProject();
+        projectList = projectJSON.sort((a, b) => parseDateStringToDate(b.date) - parseDateStringToDate(a.date));
+        setProject(projectList);
     
         ProjectFilterAll();
     }, [])

@@ -1,19 +1,19 @@
 
 [
     {
-        "srcUrl" : "./images/carousel_01.png",
-        "header" : "Header testing 01 Header testing 01",
-        "caption" : "Lorem Ipsum Ipudo yo here" 
+        "srcUrl" : "./images/project/project_19_2.png",
+        "header" : "Latest Project - Kudo the Destroyer",
+        "caption" : "A strategy ship building game where you build your ship up as you survive from hordes of monsters as you escape to the portal" 
     }, 
     {
-        "srcUrl" : "./images/carousel_02.png",
-        "header" : "Header testing 02  sdfsdfsdfsfds",
-        "caption" : "Lorem Ipsum Ipudo yo here"
+        "srcUrl" : "./images/project/project_20_4.png",
+        "header" : "Latest Project - Galactic Guardian",
+        "caption" : "An arcade style fast-paced action shooting game whereby the player aims to kill enemies and clear the level as fast as possible before the timer ticks zero."
     }, 
     {
-        "srcUrl" : "./images/carousel_03.png",
-        "header" : "Header testing 03",
-        "caption" : "Lorem Ipsum Ipudo yo here"
+        "srcUrl" : "./images/project/project_28_1.png",
+        "header" : "Portfolio website finally up!",
+        "caption" : "After weeks of hardwork, this site is finally up!"
     }
     
 ]

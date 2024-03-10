@@ -1,22 +1,25 @@
 import projectJSON from "../json/Project.json";
 import { Link } from "react-router-dom";
+import { parseDateStringToDate } from "../misc/Util";
 
 export default function ProjectOverview() {
 
     const PROJECT_SHOW_COUNT = 3;
 
     function ProjectCard() {
+        var projectList = projectJSON.sort((a, b) => parseDateStringToDate(a.date) - parseDateStringToDate(b.date));
+
         var div = [];
         
-        for (let i = projectJSON.length-PROJECT_SHOW_COUNT; i<projectJSON.length; i++)
+        for (let i = projectList.length-PROJECT_SHOW_COUNT; i<projectList.length; i++)
         {
             if (!projectJSON[i]) continue;
 
             div.push(
                 
-                <div className="d-flex flex-column justify-content-start align-items-center text-white " key={projectJSON[i].projectID} style={{maxWidth:"450px", height: "300px"}}>
-                    <img src={"/Kudoshi-website/"+projectJSON[i].pictureUrl[0]} alt={projectJSON[i].projectTitle} style={{width:"95%", height:"auto"}}></img>
-                    <h1 className="h3 text-center text-wrap">{projectJSON[i].projectTitle}</h1>
+                <div className="d-flex flex-column justify-content-start align-items-center text-white " key={projectList[i].projectID} style={{maxWidth:"450px", height: "300px"}}>
+                    <img src={"/Kudoshi-website/"+projectList[i].pictureUrl[0]} alt={projectList[i].projectTitle} style={{width:"95%", height:"auto"}}></img>
+                    <h1 className="h3 text-center text-wrap">{projectList[i].projectTitle}</h1>
                 </div>
             ); 
         };
