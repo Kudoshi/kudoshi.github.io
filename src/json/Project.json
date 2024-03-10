@@ -45,7 +45,7 @@
             "Features a dash, boost and a 3 hit ball possession mechanic"
         ],
         "projectType": "GAME",
-        "tag": [
+        "tag": [    
             "unity",
             "2D",
             "sports",
@@ -121,8 +121,7 @@
         "pictureUrl": [
             "./images/project/project_3_1.png",
             "./images/project/project_3_2.png",
-            "./images/project/project_3_3.png",
-            "./images/project/project_3_4.png"
+            "./images/project/project_3_3.png"
         ]
     },
     {
@@ -192,7 +191,9 @@
             "./images/project/project_5_1.png",
             "./images/project/project_5_2.png",
             "./images/project/project_5_3.png",
-            "./images/project/project_5_4.png"
+            "./images/project/project_5_4.png",
+            "./images/project/project_5_5.png",
+            "./images/project/project_5_6.png"
         ]
     },
     {
@@ -318,7 +319,8 @@
             "./images/project/project_9_1.png",
             "./images/project/project_9_2.png",
             "./images/project/project_9_3.png",
-            "./images/project/project_9_4.png"
+            "./images/project/project_9_4.png",
+            "./images/project/project_9_5.png"
         ]
     },
     {
@@ -344,7 +346,8 @@
             "./images/project/project_10_1.png",
             "./images/project/project_10_2.png",
             "./images/project/project_10_3.png",
-            "./images/project/project_10_4.png"
+            "./images/project/project_10_4.png",
+            "./images/project/project_10_5.png"
         ]
     },
     {
@@ -366,10 +369,10 @@
         ],
         "projectLink": [],
         "pictureUrl": [
-            "./images/project/project_11_1.png",
-            "./images/project/project_11_2.png",
-            "./images/project/project_11_3.png",
-            "./images/project/project_11_4.png"
+            "./images/project/project_11_1.jpg",
+            "./images/project/project_11_2.jpg",
+            "./images/project/project_11_3.jpg",
+            "./images/project/project_11_4.jpg"
         ]
     },
     {
@@ -405,7 +408,8 @@
             "./images/project/project_12_1.png",
             "./images/project/project_12_2.png",
             "./images/project/project_12_3.png",
-            "./images/project/project_12_4.png"
+            "./images/project/project_12_4.png",
+            "./images/project/project_12_5.png"
         ]
     },
     {
@@ -435,7 +439,8 @@
             "./images/project/project_13_2.png",
             "./images/project/project_13_3.png",
             "./images/project/project_13_4.png",
-            "./images/project/project_13_5.png"
+            "./images/project/project_13_5.png",
+            "./images/project/project_13_6.png"
         ]
     },
     {
@@ -499,7 +504,8 @@
             "./images/project/project_17_1.png",
             "./images/project/project_17_2.png",
             "./images/project/project_17_3.png",
-            "./images/project/project_17_4.png"
+            "./images/project/project_17_4.png",
+            "./images/project/project_17_5.png"
         ]
     },
     {
@@ -563,7 +569,8 @@
             "./images/project/project_19_2.png",
             "./images/project/project_19_3.png",
             "./images/project/project_19_4.png",
-            "./images/project/project_19_5.png"
+            "./images/project/project_19_5.png",
+            "./images/project/project_19_6.png"
         ]
     },
     {
@@ -683,6 +690,8 @@
         "description": [
             "A competition hosting website to host and join any kind of event. 3 user role : user, organizer and admin",
             "",
+            "Worked with 3 other developers where I lead the project in developing the front end and backend server",
+            "",
             "Created using MERN stack(MongoDB, express, React and Node.js) connected to cloud MongoDB"
         ],
         "projectType": "PROGRAMMING",
@@ -763,8 +772,7 @@
         "pictureUrl": [
             "./images/project/project_27_1.png",
             "./images/project/project_27_2.png",
-            "./images/project/project_27_3.png",
-            "./images/project/project_27_4.png"
+            "./images/project/project_27_3.png"
         ]
     }
 ]
