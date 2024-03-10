@@ -15,7 +15,7 @@ export default function App(){
       <Route path="/Kudoshi-website/" element={<Homepage/>}/>
       <Route path="/Kudoshi-website/*" element={<Homepage/>}/>
       <Route path="/Kudoshi-website/project" element={<Project/>}/>
-      <Route path="/project-creator" element={<ProjectCreator/>}/>
+      {/* <Route path="/project-creator" element={<ProjectCreator/>}/> */}
       <Route path="*" element={<Homepage/>}/>
     </Routes>
   )
