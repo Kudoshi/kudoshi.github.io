@@ -47,7 +47,6 @@ function Homepage() {
           </div>
         </div>
       </div>
-      <div className='bg-black' style={{height:"10vh"}}></div>
       <div className='d-flex flex-column flex-md-row justify-content-evenly align-items-center px-5 BGWhitePassive py-4'>
         <div className='text-center BGBrandColorPassive text-white d-flex flex-column justify-content-center my-2' style={{width: "300px", height:"300px"}}>
           <p className='fw-bold display-2'>8</p>
@@ -66,13 +65,13 @@ function Homepage() {
         </div>
         
       </div>
-      <div className='bg-black d-flex justify-content-center align-items-center py-5'>
+      <div className='bg-black d-flex justify-content-center align-items-center py-3'>
         <br/>
         <p className="text-white text-center h1 font-spartan-bold">HIGHLIGHTS</p>
       </div>
       {/* CAROUSEL */}
       {Carousel()}
-      <div className='bg-black d-flex justify-content-center align-items-center py-5'>
+      <div className='bg-black d-flex justify-content-center align-items-center py-3'>
         <br/>
         <p className="text-white text-center h1 font-spartan-bold">LATEST PROJECTS</p>
       </div>
