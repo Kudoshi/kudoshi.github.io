@@ -774,6 +774,26 @@
             "./images/project/project_27_2.png",
             "./images/project/project_27_3.png"
         ]
+    },
+    {
+        "projectID": "28",
+        "projectTitle": "Kudoshi Portfolio Website",
+        "date": "5/2/2024",
+        "description": [
+            "Portfolio website made with React hosted using Github Pages",
+            "",
+            "Uses JSON to save project information",
+            "Has a project creator form tool to create json object to fill in JSON"
+        ],
+        "projectType": "PROGRAMMING",
+        "tag": [
+            "website",
+            "react"
+        ],
+        "projectLink": [],
+        "pictureUrl": [
+            "./images/project/project_28_1.png"
+        ]
     }
 ]
 
