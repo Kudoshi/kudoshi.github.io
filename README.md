@@ -1,4 +1,4 @@
-Link to website: https://kudoshi.github.io/Kudoshi-website/
+Link to website: https://kudoshi.github.io/
 
 A website where I post all my projects and activities
 
