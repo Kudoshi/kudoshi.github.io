@@ -794,6 +794,28 @@
         "pictureUrl": [
             "./images/project/project_28_1.png"
         ]
+    },
+    {
+        "projectID": "29",
+        "projectTitle": "Let Him Cook",
+        "date": "27/2/2024",
+        "description": [
+            "Let Him Cook is a simple 3-4 player card game where you collect ingredients and complete orders racing to be the first to get 10 points to be the winner of the game. It is inspired by Catan where we took the fun part of the trading and material system into a cooking game where the game revolves around the trading and collection of ingredients. Players can trade, collect ingredients, use power cards and complete their orders to achieve points. This card game is physically made and created to tailor to a physical card game experience.",
+            "",
+            "Made with 3 other teammates where I did balancing of game, creation of cards and the art design of the cards."
+        ],
+        "projectType": "GAME",
+        "tag": [
+            "card-game",
+            "board-game"
+        ],
+        "projectLink": [],
+        "pictureUrl": [
+            "./images/project/project_29_1.png",
+            "./images/project/project_29_2.png",
+            "./images/project/project_29_3.png",
+            "./images/project/project_29_4.png"
+        ]
     }
 ]
 
