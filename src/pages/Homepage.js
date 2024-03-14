@@ -53,14 +53,14 @@ function Homepage() {
           <p className='font-abeezee-normal h5 pt-3'>Game Jams Participated</p>
         </div>
         <div className='text-center BGBrandColorPassive text-white d-flex flex-column justify-content-center my-2' style={{width: "300px", height:"300px"}}>
-          <p className='fw-bold display-2'>20</p>
+          <p className='fw-bold display-2'>21</p>
           <br/>
           <p className='font-abeezee-normal h5 pt-3'>Games Made</p>
         </div>
         <div className='text-center BGBrandColorPassive text-white d-flex flex-column justify-content-center my-2' style={{width: "300px", height:"300px"}}>
           <p className='fw-bold display-2'>1</p>
           <br/>
-          <p className='font-abeezee-normal h5 pt-3'>Published App</p>
+          <p className='font-abeezee-normal h5 pt-3'>Published Unity App</p>
         </div>
         
       </div>
