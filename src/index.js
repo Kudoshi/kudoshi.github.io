@@ -9,6 +9,7 @@ import reportWebVitals from './reportWebVitals';
 import 'bootstrap/dist/js/bootstrap.bundle.min'; 
 import 'bootstrap/dist/css/bootstrap.min.css'; 
 import "bootstrap-icons/font/bootstrap-icons.css";
+import 'react-photo-view/dist/react-photo-view.css';
 import { BrowserRouter } from 'react-router-dom';
 import ScrollToTop from './misc/ScrollToTop';
 

@@ -100,7 +100,7 @@ export default function Project(){
             </div>);
 
         return project.map(record =>{
-            return <IndividualProject project={record}/>
+            return <IndividualProject project={record} key={record.projectID}/>
         })     
     }
 

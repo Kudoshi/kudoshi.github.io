@@ -1,6 +1,7 @@
 import { Link } from "react-router-dom";
 import { useEffect, useState } from"react";
 import { GetViewportSize} from "../misc/Util";
+import { PhotoProvider, PhotoView } from 'react-photo-view';
 
 export default function IndividualProject(project){
 
@@ -63,17 +64,21 @@ export default function IndividualProject(project){
     {
         var img = project.project.pictureUrl;
         var div = [];
+
         for (var i = 1; i < img.length; i++)
         {
             div.push(
-                <img src={"/Kudoshi-website/"+img[i]} alt={img[i]} key={img[i]} className="my-2 mx-md-3" style={{width: imgWidth, height: imgHeight}} id={img[i]}/>
+                <PhotoView key={img[i]} src={"/Kudoshi-website/"+img[i]}>
+                    <img src={"/Kudoshi-website/"+img[i]} alt={img[i]} className="my-2 mx-md-3" style={{width: imgWidth, height: imgHeight}} id={img[i]}/>
+                </PhotoView>
+
             );
         }
 
         return div;
     }
 
-    function DisplayToWebsite()
+    function DisplayToWebsite() 
     {
 
         if (project.project.projectLink)
@@ -104,12 +109,16 @@ export default function IndividualProject(project){
 
 
     return(
-        <div >
-            <div className="BGBrandColor d-flex flex-column my-2 py-4" id="projectContainer">
+        <div>
+            <div className="BGBrandColor d-flex flex-column my-2 py-4" id="projectContainer" >
+                <PhotoProvider>
                 <div className="row m-0">
                     <div className="col-md-3 d-flex flex-column mt-md-4 align-items-center p-4">
-                        <img src={"/Kudoshi-website/"+project.project.pictureUrl[0]} alt={project.project.pictureUrl[0]} key={project.project.projectID} 
-                            className="py-2" style={{width: "100%", height:"auto"}}></img>
+                        <PhotoView src={"/Kudoshi-website/"+project.project.pictureUrl[0]} key={project.project.projectID}>
+                            <img src={"/Kudoshi-website/"+project.project.pictureUrl[0]} alt={project.project.pictureUrl[0]}  
+                                className="py-2" style={{width: "100%", height:"auto"}}></img>
+                        </PhotoView>
+                        
                         <div>
                             {
                                 DisplayTag()
@@ -133,6 +142,7 @@ export default function IndividualProject(project){
                     
                     <div className="col-md-1"></div>|
                 </div>
+                </PhotoProvider>
             </div>
         </div>
     );
