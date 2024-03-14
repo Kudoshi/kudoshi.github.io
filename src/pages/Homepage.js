@@ -12,13 +12,12 @@ function Homepage() {
           <div className='display-4 font-spartan-bold text-center text-wrap'>Brenden Tan "Kudoshi" Poh Guan</div>
           <div className='d-flex font-abeezee-normal justify-content-center align-items-center flex-wrap'>
             <span className='fw-bold font-abeezee-italic p-2 px-3 mx-2'>GAME PROGRAMMER</span> | 
-            <span className='fw-bold font-abeezee-italic p-2 px-3 mx-2'>APUGDC PRESIDENT</span> | 
-            <span className='fw-bold font-abeezee-italic p-2 px-3 mx-2'>MALAYSIAN</span> | 
+            <span className='fw-bold font-abeezee-italic p-2 px-3 mx-2'>APUGDC PRESIDENT</span> |
             <span className='fw-bold font-abeezee-italic p-2 px-3 mx-2'>GAME DEVELOPER</span> 
           </div>
           <div className='spanLine-white-manual-3 my-1' style={{width: "100%"}}></div>
           <br/>
-          <div className='px-5 py-2 font-abeezee-normal' style={{width: "100%"}}>
+          <div className='px-5 py-2 font-abeezee-normal text-center' style={{width: "100%"}}>
             Been making games since 2020. I love playing multiplayer games, doing poster designs, video creation and sharing my passion of game development with others. Started off as a software engineer before falling in love with game development. Also, I am a die-hard fan of Nasi Lemak
           </div>
           <br/>
@@ -49,12 +48,12 @@ function Homepage() {
       </div>
       <div className='d-flex flex-column flex-md-row justify-content-evenly align-items-center px-5 BGWhitePassive py-4'>
         <div className='text-center BGBrandColorPassive text-white d-flex flex-column justify-content-center my-2' style={{width: "300px", height:"300px"}}>
-          <p className='fw-bold display-2'>8</p>
+          <p className='fw-bold display-2'>9</p>
           <br/>
           <p className='font-abeezee-normal h5 pt-3'>Game Jams Participated</p>
         </div>
         <div className='text-center BGBrandColorPassive text-white d-flex flex-column justify-content-center my-2' style={{width: "300px", height:"300px"}}>
-          <p className='fw-bold display-2'>19</p>
+          <p className='fw-bold display-2'>20</p>
           <br/>
           <p className='font-abeezee-normal h5 pt-3'>Games Made</p>
         </div>

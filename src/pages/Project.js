@@ -3,16 +3,35 @@ import projectJSON from "../json/Project.json";
 import IndividualProject from "../components/IndividualProject";
 import { parseDateStringToDate } from "../misc/Util";
 
-export default function Project({filter}){
+export default function Project(){
     let projectList = projectJSON;
     const [project, setProject] = useState(projectJSON);
     const [currentProjectType, setCurrentProjectType] = useState('ALL');
     const [projectLabel, setProjectLabel] = useState("All Project");
+    const [isVisible, setIsVisible] = useState(false);
 
     useEffect(() => {
         projectList = projectJSON.sort((a, b) => parseDateStringToDate(b.date) - parseDateStringToDate(a.date));
         setProject(projectList);
-    
+        
+        // Scroll to top
+        const toggleVisibility = () => {
+            if (window.scrollY > 300) {
+              setIsVisible(true);
+            } else {
+              setIsVisible(false);
+            }
+          };
+      
+          // Event listener to check scroll position
+          window.addEventListener('scroll', toggleVisibility);
+      
+          // Clean up the event listener
+          return () => {
+            window.removeEventListener('scroll', toggleVisibility);
+          };
+
+
         ProjectFilterAll();
     }, [])
     
@@ -94,6 +113,15 @@ export default function Project({filter}){
         else return "hover-clickable fs-5 nav-item p-2 w-100";
     }
 
+  
+    const scrollToTop = () => {
+      window.scrollTo({
+        top: 0,
+        behavior: 'smooth'
+      });
+    };
+
+
     return(
         <div className="container-fluid p-0">
             <div className="BGBrandColor text-white d-flex flex-column justify-content-center align-items-center">
@@ -112,6 +140,18 @@ export default function Project({filter}){
             <div>
                 <div className="BGBrandColor text-white text-center w-100 p-4 h4">{projectLabel}</div>
                 { DisplayProjects()}
+            </div>
+            <div
+                variant="primary"
+                onClick={scrollToTop}
+                style={{
+                    display: isVisible ? 'inline-block' : 'none',
+                    position: 'fixed',
+                    bottom: '50px',
+                    right: '50px'
+                }}
+                className="bi bi-arrow-up-circle-fill text-white fs-1 hover-clickable shadow-m"
+                >
             </div>
         </div>
     );
