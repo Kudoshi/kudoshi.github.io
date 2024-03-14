@@ -1,5 +1,5 @@
 {
-  "name": "kudoshi-website",
+  "name": "kudoshi.github.io",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -44,5 +44,5 @@
   "devDependencies": {
     "gh-pages": "^6.1.1"
   },
-  "homepage": "http://kudoshi.github.io/Kudoshi-website"
+  "homepage": "http://kudoshi.github.io/"
 }

@@ -6,10 +6,10 @@ export default function Header() {
             <nav className="navbar navbar-expand-sm bg-dark navbar-dark sticky-top">
             <div className="container-fluid px-4">
                 <div className="d-flex flex-row align-content-center justify-content-center">
-                    <a className="navbar-brand" href="/Kudoshi-website/">
-                        <img src="/Kudoshi-website/images/website-logo.png" alt="Avatar Logo" style={{width:"50px"}} className="rounded-circle"/> 
+                    <a className="navbar-brand" href="/">
+                        <img src="/images/website-logo.png" alt="Avatar Logo" style={{width:"50px"}} className="rounded-circle"/> 
                     </a>
-                    <Link to="/Kudoshi-website/" className="h3 text-white align-self-center un-underline">
+                    <Link to="/" className="h3 text-white align-self-center un-underline">
                         Kudoshi
                     </Link>
                 </div>
@@ -19,10 +19,10 @@ export default function Header() {
                 <div className="collapse navbar-collapse d-flex-md justify-content-end" id="collapsibleNavbar">
                     <ul className="navbar-nav px-3">
                         <li className="nav-item px-2">
-                            <Link to="/Kudoshi-website/" className="nav-link">Homepage</Link>
+                            <Link to="/" className="nav-link">Homepage</Link>
                         </li>
                         <li className="nav-item px-2">
-                            <Link to="/Kudoshi-website/project" className="nav-link">Projects</Link>
+                            <Link to="/project" className="nav-link">Projects</Link>
                         </li>
                     </ul>
                 </div>

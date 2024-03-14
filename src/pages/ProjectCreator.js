@@ -253,7 +253,7 @@ function DisplayDataForm()
                         <td>
                             <ul>
                             {project.pictureUrl.map((url, index) => (
-                                <li key={index}><img src={"/Kudoshi-website/"+url} alt={`Image ${index + 1}`} style={{width: "100px", height:"auto"}}/></li>
+                                <li key={index}><img src={url} alt={`Image ${index + 1}`} style={{width: "100px", height:"auto"}}/></li>
                             ))}
                             </ul>
                         </td>

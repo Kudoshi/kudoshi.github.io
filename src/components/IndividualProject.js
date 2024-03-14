@@ -68,8 +68,8 @@ export default function IndividualProject(project){
         for (var i = 1; i < img.length; i++)
         {
             div.push(
-                <PhotoView key={img[i]} src={"/Kudoshi-website/"+img[i]}>
-                    <img src={"/Kudoshi-website/"+img[i]} alt={img[i]} className="my-2 mx-md-3 hover-clickable" style={{width: imgWidth, height: imgHeight}} id={img[i]}/>
+                <PhotoView key={img[i]} src={img[i]}>
+                    <img src={img[i]} alt={img[i]} className="my-2 mx-md-3 hover-clickable" style={{width: imgWidth, height: imgHeight}} id={img[i]}/>
                 </PhotoView>
 
             );
@@ -114,8 +114,8 @@ export default function IndividualProject(project){
                 <PhotoProvider>
                 <div className="row m-0">
                     <div className="col-md-3 d-flex flex-column mt-md-4 align-items-center p-4">
-                        <PhotoView src={"/Kudoshi-website/"+project.project.pictureUrl[0]} key={project.project.projectID}>
-                            <img src={"/Kudoshi-website/"+project.project.pictureUrl[0]} alt={project.project.pictureUrl[0]}  
+                        <PhotoView src={project.project.pictureUrl[0]} key={project.project.projectID}>
+                            <img src={project.project.pictureUrl[0]} alt={project.project.pictureUrl[0]}  
                                 className="py-2 hover-clickable" style={{width: "100%", height:"auto"}}></img>
                         </PhotoView>
                         
