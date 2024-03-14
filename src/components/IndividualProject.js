@@ -69,7 +69,7 @@ export default function IndividualProject(project){
         {
             div.push(
                 <PhotoView key={img[i]} src={"/Kudoshi-website/"+img[i]}>
-                    <img src={"/Kudoshi-website/"+img[i]} alt={img[i]} className="my-2 mx-md-3" style={{width: imgWidth, height: imgHeight}} id={img[i]}/>
+                    <img src={"/Kudoshi-website/"+img[i]} alt={img[i]} className="my-2 mx-md-3 hover-clickable" style={{width: imgWidth, height: imgHeight}} id={img[i]}/>
                 </PhotoView>
 
             );
@@ -116,7 +116,7 @@ export default function IndividualProject(project){
                     <div className="col-md-3 d-flex flex-column mt-md-4 align-items-center p-4">
                         <PhotoView src={"/Kudoshi-website/"+project.project.pictureUrl[0]} key={project.project.projectID}>
                             <img src={"/Kudoshi-website/"+project.project.pictureUrl[0]} alt={project.project.pictureUrl[0]}  
-                                className="py-2" style={{width: "100%", height:"auto"}}></img>
+                                className="py-2 hover-clickable" style={{width: "100%", height:"auto"}}></img>
                         </PhotoView>
                         
                         <div>
