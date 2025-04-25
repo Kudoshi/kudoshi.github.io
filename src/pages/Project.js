@@ -127,19 +127,21 @@ export default function Project(){
             <div className="BGBrandColor text-white d-flex flex-column justify-content-center align-items-center">
                 <div className="display-5 py-4 my-2">PROJECT</div>
 
-                <div className="w-100 d-flex flex-column flex-md-row justify-content-evenly align-items-center bg-secondary text-center">
+                <div className="w-100 d-flex flex-column flex-md-row justify-content-evenly align-items-center BGBrandColor text-center">
                     <div onClick={ProjectFilterAll} className={ProjectTypeClass("ALL")} >ALL</div>
                     <div onClick={ProjectFilterGame} className={ProjectTypeClass("GAME")}>GAME</div>
                     <div onClick={ProjectFilterProgramming} className={ProjectTypeClass("PROGRAMMING")}>PROGRAMMING</div>
                     {/* <div onClick={ProjectFilterVideo} className={ProjectTypeClass("VIDEO")}>VIDEO</div>
                     <div onClick={ProjectFilterArt} className={ProjectTypeClass("ART")}>ART</div>
                     <div onClick={ProjectFilterOther} className={ProjectTypeClass("OTHER")}>OTHER</div> */}
-                
                 </div>
             </div>
-            <div>
-                <div className="BGBrandColor text-white text-center w-100 p-4 h4">{projectLabel}</div>
+            <div className="BGBrandColor">
+                <div className="BGBrandColorPassive text-white text-center w-100 p-4 h4">{projectLabel}</div>
+                <div className="BGBrandColor">
                 { DisplayProjects()}
+                </div>
+                &nbsp;
             </div>
             <div
                 variant="primary"

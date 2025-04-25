@@ -10,12 +10,44 @@
 
 /* Colors */
 
+/* Brand Color
+#5F801D
+*/
+
+.BrandTextColor
+{
+  color: #51b23b;
+}
+
+.BrandColor{
+  background-color: #51b23b;
+
+}
+
+.HeaderColor {
+  background-color: #05445e;
+}
+
 .BGBrandColor {
-  background-color: #2f3336;
+  background-color: #05445e;
 }
+
 .BGBrandColorPassive {
-  background-color: #3c4349;
+  background-color: #189AB4;
 }
+.BGBrandColorPassive2 {
+  background-color: #75E6DA;
+}
+
+
+.BGDark{
+  background-color: #202020;
+}
+
+/* .BtnColor
+{
+
+} */
 
 .BGWhitePassive {
   background-color: #F3F3F3;
@@ -78,6 +110,20 @@
   color: #86C232;
 }
 
+.text-brand
+{
+  color: #51b23b;
+}
+
+.text-brand2
+{
+  color: #D4F1F4;
+}
+
+.text-brand3
+{
+  color: #75E6DA;
+}
 /* Text shadow */
 
 .text-shadow-xsoft
@@ -191,6 +237,10 @@
 .spanLine-white-manual-3{
   border-top:none;
   border-bottom: 5px solid rgb(235, 235, 235);
+}
+.spanLine-secondary-manual{
+  border-top:none;
+  border-bottom: 5px solid rgb(69, 105, 144);
 }
 
 

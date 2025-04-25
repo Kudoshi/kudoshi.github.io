@@ -47,7 +47,7 @@ export default function Carousel() {
   }
 
     return (
-    	<div className='BGBrandColor d-flex justify-content-center align-items-center'>
+    	<div className='BGDark d-flex justify-content-center align-items-center'>
 				<div id="highlight" className='carousel slide' data-bs-ride="carousel">
         {/* Indicators/dots */}
           <div className="carousel-indicators">

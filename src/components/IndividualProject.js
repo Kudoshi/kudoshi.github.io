@@ -37,7 +37,7 @@ export default function IndividualProject(project){
         var div = [];
         for (let i = 0; i < project.project.tag.length; i++)
         {
-            div.push(<div className="badge bg-secondary m-1" style={{fontSize: "0.75em"}}>
+            div.push(<div className="badge BGBrandColorPassive m-1" style={{fontSize: "0.75em"}}>
                 {project.project.tag[i]} 
             </div>);
         }
@@ -96,7 +96,7 @@ export default function IndividualProject(project){
                     <div className="text-center my-2">
                         <div>To {project.project.projectLink[i].linkSite}</div>
                         <Link to={project.project.projectLink[i].linkUrl}>
-                            <span className="bi bi-arrow-right display-2"></span>
+                            <span className="BrandTextColor bi bi-arrow-right display-2"></span>
                         </Link>
                     </div>
                 );
@@ -110,7 +110,7 @@ export default function IndividualProject(project){
 
     return(
         <div>
-            <div className="BGBrandColor d-flex flex-column my-2 py-4" id="projectContainer" >
+            <div className="BGDark d-flex flex-column my-2 py-4" id="projectContainer" >
                 <PhotoProvider>
                 <div className="row m-0">
                     <div className="col-md-3 d-flex flex-column mt-md-4 align-items-center p-4">

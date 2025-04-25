@@ -2,7 +2,7 @@ import { Link } from "react-router-dom";
 export default function Footer(){
 
     return (
-        <div className="bg-dark row py-2 container-fluid" style={{margin:"0px"}}>
+        <div className="BGBrandColor row py-2 container-fluid" style={{margin:"0px"}}>
             <div className="col-12 col-md-4"></div>
             <div className="col-12 col-md-4 d-flex justify-content-center text-white py-2">
                 <Link to="/" className="un-underline text-white px-2">Homepage</Link> | 

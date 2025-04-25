@@ -816,6 +816,139 @@
             "./images/project/project_29_3.png",
             "./images/project/project_29_4.png"
         ]
+    },
+    {
+        "projectID": "30",
+        "projectTitle": "OBOK",
+        "date": "5/12/2024",
+        "description": [
+            "One Blast One Kill",
+            "A fast-paced, casual 3v3 online multiplayer arena shooter for Android! This top-down action game is all about precision and strategy—just one blast is enough to take out your enemies. Bounce your shots off walls, outsmart your opponents, and dominate the arena. Upgrade your blast to gain the upper hand and become the ultimate blaster!",
+            "",
+            "Developed in a team of 3 as the multiplayer game programmer",
+            "",
+            "Made with Unity using Unity Netcode with Unity Relay and Lobby service"
+        ],
+        "projectType": "GAME",
+        "tag": [
+            "unity",
+            "multiplayer",
+            "netcode",
+            "mobile",
+            "android"
+        ],
+        "projectLink": [
+            {
+                "linkSite": "Youtube Trailer",
+                "linkUrl": "https://youtu.be/X_bkaWL73vY"
+            },
+            {
+                "linkSite": "Game and Project Download",
+                "linkUrl": "https://cloudmails-my.sharepoint.com/:f:/g/personal/tp061596_mail_apu_edu_my/Eq2dsLY1HmFJqSA2hcfhoY8BxWXnnssMwlzMX-_AEb5l9Q?e=eIBBZS"
+            }
+        ],
+        "pictureUrl": [
+            "./images/project/project_30_1.png",
+            "./images/project/project_30_2.png",
+            "./images/project/project_30_3.png",
+            "./images/project/project_30_4.png",
+            "./images/project/project_30_5.png"
+        ]
+    },
+    {
+        "projectID": "31",
+        "projectTitle": "PTSD",
+        "date": "5/12/2024",
+        "description": [
+            "Part Time Sewer Depo. (P.T.S.D) is a 3D multiplayer survival horror up to 3 players. It follows a group of part time employees of a megacorporation that fixes sewers. The players will play as an employee that will go on a thrilling adventure through the different sewer systems trying to complete their objectives either before the timer runs out while getting chased by a monster",
+            "",
+            "Developed with a team of 3 as the multiplayer game programmer",
+            "",
+            "Made with Unreal utilizing Epic Online Service for multiplayer using EOS Integration Kit"
+        ],
+        "projectType": "GAME",
+        "tag": [
+            "unreal",
+            "multipler",
+            "eos",
+            "horror"
+        ],
+        "projectLink": [
+            {
+                "linkSite": "Youtube Trailer",
+                "linkUrl": "https://youtu.be/dy5_HS7N-uc"
+            },
+            {
+                "linkSite": "Game Download",
+                "linkUrl": "https://drive.google.com/drive/folders/13THfSXDng6lsY0uyFf9Amv41YMwuBMFt?usp=sharing"
+            }
+        ],
+        "pictureUrl": [
+            "./images/project/project_31_1.png",
+            "./images/project/project_31_2.png",
+            "./images/project/project_31_3.png",
+            "./images/project/project_31_5.png",
+            "./images/project/project_31_6.png"
+        ]
+    },
+    {
+        "projectID": "32",
+        "projectTitle": "Lazy Wizard In My Pocket",
+        "date": "26/1/2025",
+        "description": [
+            "A 2D pixel art casual game where you are the town’s repair pro with a big secret: a lazy wizard who does all the work... with bubbles. The catch? The wizard’s too tired to care, so you’ll need to blow and shape magical bubbles into the perfect fixes. But bubble magic is limited—because, you know, the wizard’s lazy.",
+            "",
+            "Developed in Unity with a team of 5 as the lead programmer for the Global Game Jam 2025"
+        ],
+        "projectType": "GAME",
+        "tag": [
+            "unity",
+            "casual",
+            "pixel-art",
+            "2D",
+            "game-jam"
+        ],
+        "projectLink": [
+            {
+                "linkSite": "Itch.io",
+                "linkUrl": "https://dawnin64.itch.io/lazy-wizard-in-my-pocket"
+            }
+        ],
+        "pictureUrl": [
+            "./images/project/project_32_1.png",
+            "./images/project/project_32_2.png",
+            "./images/project/project_32_3.png",
+            "./images/project/project_32_4.png"
+        ]
+    },
+    {
+        "projectID": "33",
+        "projectTitle": "FiresOut!",
+        "date": "24/4/2025",
+        "description": [
+            "FiresOut! is a fast-paced, chaotic, and laugh-out-loud local co-op firefighting game where teamwork makes the dream work... or total disaster! Inspired by games like Overcooked and Moving Out, grab your gear and your best buddy as you dive into burning houses, dodge fireballs, and rescue helpless victims from fire monsters run amok.",
+            "",
+            "Developed in Unity under the studio name of Enmu Studio in a team of 5 as the project manager, game programmer and sound designer"
+        ],
+        "projectType": "GAME",
+        "tag": [
+            "unity",
+            "chaotic",
+            "local-coop"
+        ],
+        "projectLink": [
+            {
+                "linkSite": "Itch.io",
+                "linkUrl": "https://enmu-studio.itch.io/firesout"
+            }
+        ],
+        "pictureUrl": [
+            "./images/project/project_33_1.png",
+            "./images/project/project_33_2.png",
+            "./images/project/project_33_3.png",
+            "./images/project/project_33_4.png",
+            "./images/project/project_33_5.png"
+        ]
     }
 ]
 
