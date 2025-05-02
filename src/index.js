@@ -10,19 +10,19 @@ import 'bootstrap/dist/js/bootstrap.bundle.min';
 import 'bootstrap/dist/css/bootstrap.min.css'; 
 import "bootstrap-icons/font/bootstrap-icons.css";
 import 'react-photo-view/dist/react-photo-view.css';
-import { BrowserRouter } from 'react-router-dom';
+import { HashRouter } from 'react-router-dom';
 import ScrollToTop from './misc/ScrollToTop';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render( 
-  <BrowserRouter>
+  <HashRouter>
     <React.StrictMode>
       <ScrollToTop/>
       <Header />
       <App />
       <Footer />
     </React.StrictMode>
-  </BrowserRouter>
+  </HashRouter>
 );
 
 // If you want to start measuring performance in your app, pass a function
