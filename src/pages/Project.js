@@ -14,6 +14,8 @@ export default function Project(){
         projectList = projectJSON.sort((a, b) => parseDateStringToDate(b.date) - parseDateStringToDate(a.date));
         setProject(projectList);
         
+        ProjectFilterAll();
+
         // Scroll to top
         const toggleVisibility = () => {
             if (window.scrollY > 300) {
@@ -32,7 +34,6 @@ export default function Project(){
           };
 
 
-        ProjectFilterAll();
     }, [])
     
 

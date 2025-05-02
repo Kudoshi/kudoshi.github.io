@@ -52,12 +52,12 @@ function Homepage() {
       </div>
       <div className='d-flex flex-column flex-md-row justify-content-evenly align-items-center px-5 BGDark py-4'>
         <div className='text-center BGBrandColorPassive text-white d-flex flex-column justify-content-center my-2' style={{width: "300px", height:"300px"}}>
-          <p className='fw-bold display-2'>10</p>
+          <p className='fw-bold display-2'>12</p>
           <br/>
           <p className='font-abeezee-normal h5 pt-3'>Game Jams Participated</p>
         </div>
         <div className='text-center BGBrandColorPassive text-white d-flex flex-column justify-content-center my-2' style={{width: "300px", height:"300px"}}>
-          <p className='fw-bold display-2'>25</p>
+          <p className='fw-bold display-2'>26</p>
           <br/>
           <p className='font-abeezee-normal h5 pt-3'>Games Made</p>
         </div>

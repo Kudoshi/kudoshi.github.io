@@ -949,6 +949,35 @@
             "./images/project/project_33_4.png",
             "./images/project/project_33_5.png"
         ]
+    },
+    {
+        "projectID": "34",
+        "projectTitle": "Dragon Requiem",
+        "date": "14/5/2024",
+        "description": [
+            "Dragon Requiem is a 3rd person RTS-like troop commanding base building game where player has to gather resources during the day and fight against the monster swarming your base at night. Player can build towers and build barracks to hire troops which they can command.",
+            "",
+            "Game features troop commanding, base building, resource management, AI enemies and troop and day-night cycle",
+            "",
+            "Created for a game jam using Unity within one month with a team of 5 as the lead game programmer"
+        ],
+        "projectType": "GAME",
+        "tag": [
+            "troop-commanding",
+            "base-building"
+        ],
+        "projectLink": [
+            {
+                "linkSite": "Youtube",
+                "linkUrl": "https://www.youtube.com/watch?v=i-mqlvLQSm8&ab_channel=AYoYo"
+            }
+        ],
+        "pictureUrl": [
+            "./images/project/project_34_1.jpg",
+            "./images/project/project_34_2.jpg",
+            "./images/project/project_34_3.jpg",
+            "./images/project/project_34_4.jpg"
+        ]
     }
 ]
 
