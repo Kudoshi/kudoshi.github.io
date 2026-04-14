@@ -1,983 +1,1041 @@
 [
-    {
-        "projectID": "0",
-        "projectTitle": "Tree Tag Tremble",
-        "date": "27/4/2020",
-        "description": [
-            "A recreation of Warcraft 3's massively popular Tree Tag Tremble made in Dota 2's Hammer Editor having over 1000+ player subscribers.",
-            "",
-            "A hide and seek tag game where the \"Inferno\" chases after the \"Ent\" while the Ent tries to survive.",
-            "",
-            "Developed together with TeddehMiracle and [N]ightwing"
-        ],
-        "projectType": "GAME",
-        "tag": [
-            "dota-2", 
-            "lua",
-            "hammer-editor",
-            "game"
-        ],
-        "projectLink": [
-            {
-                "linkSite" : "Steam Workshop",
-                "linkUrl" : "https://steamcommunity.com/sharedfiles/filedetails/?id=2075256320"
-            },
-            {
-                "linkSite" : "Github",
-                "linkUrl" : "https://github.com/Kudoshi/tree_tag_tremble_game_site/tree/master"
-            }
-        ], 
-        "pictureUrl": [
-            "./images/project/project_0_1.png",
-            "./images/project/project_0_2.png",
-            "./images/project/project_0_3.png",
-            "./images/project/project_0_4.png",
-            "./images/project/project_0_5.png"
-        ]
-    },
-    {
-        "projectID": "1",
-        "projectTitle": "Volleyball 2D",
-        "date": "16/11/2020",
-        "description": [
-            "A local multiplayer volleyball game where you have to hit the ball across the net to the opponent's side",
-            "",
-            "Features a dash, boost and a 3 hit ball possession mechanic"
-        ],
-        "projectType": "GAME",
-        "tag": [    
-            "unity",
-            "2D",
-            "sports",
-            "local-multiplayer"
-        ],
-        "projectLink": [
-            {
-                "linkSite" : "Itch.io",
-                "linkUrl" : "https://kudoshi.itch.io/volleyball-2d"
-            }
-        ],
-        "pictureUrl": [
-            "./images/project/project_1_1.png",
-            "./images/project/project_1_2.png",
-            "./images/project/project_1_3.png",
-            "./images/project/project_1_4.png"
-        ]
-    },
-    {
-        "projectID": "2",
-        "projectTitle": "Battle Monster But Less Is More",
-        "date": "29/1/2021",
-        "description": [
-            "A simple games based on Less Is More. You tweak your stats to gain higher score to defeat enemies. The less stronger your monster is, the more score you get.",
-            "",
-            "- Tweak your stats to increase your multiplier to gain more score",
-            "- Beat your highscore by optimizing your stats",
-            "- Beat the enemy monster in as less turn as possible to gain more score",
-            "",
-            "Made in Unity for the Blackthornprod's Game Jam in 1 week"
-        ],
-        "projectType": "GAME",
-        "tag": [
-            "unity",
-            "game-jam",
-            "turn-based"
-        ],
-        "projectLink": [
-            {
-                "linkSite": "Itch.io",
-                "linkUrl": "https://kudoshi.itch.io/battle-monster-but-less-is-more"
-            },
-            {
-                "linkSite": "Github",
-                "linkUrl": "https://github.com/Kudoshi/Monster-Battle-But-Less-Is-More"
-            }
-        ],
-        "pictureUrl": [ 
-            "./images/project/project_2_1.png",
-            "./images/project/project_2_2.png",
-            "./images/project/project_2_3.png",
-            "./images/project/project_2_4.png"
-        ]
-    },
-    {
-        "projectID": "3",
-        "projectTitle": "Stronger Together",
-        "date": "21/2/2021",
-        "description": [
-            "A platforming game where you can create platforms following the theme Stronger Together. Gather your allies that helps you build more platforms.",
-            "My first 3D game made",
-            "",
-            "Made in Unity for Brackey Game Jam"
-        ],
-        "projectType": "GAME",
-        "tag": [
-            "unity",
-            "platformer",
-            "3D",
-            "game-jam"
-        ],
-        "projectLink": [],
-        "pictureUrl": [
-            "./images/project/project_3_1.png",
-            "./images/project/project_3_2.png",
-            "./images/project/project_3_3.png"
-        ]
-    },
-    {
-        "projectID": "4",
-        "projectTitle": "Do Not Follow The Task",
-        "date": "1/3/2021",
-        "description": [
-            "A puzzle solving game where you are trapped by an AI and needs to do the opposite of what the game tells you to do.",
-            "",
-            "There are in total 5 different puzzles with each puzzle featuring a totally new rules and way of playing",
-            "",
-            "Created in Unity for Wowie GameJam 2021"
-        ],
-        "projectType": "GAME",
-        "tag": [
-            "unity",
-            "puzzle",
-            "game-jam"
-        ],
-        "projectLink": [
-            {
-                "linkSite": "Itch.io",
-                "linkUrl": "https://kudoshi.itch.io/do-not-follow-the-task"
-            }
-        ],
-        "pictureUrl": [
-            "./images/project/project_4_1.png",
-            "./images/project/project_4_2.png",
-            "./images/project/project_4_3.png",
-            "./images/project/project_4_4.png",
-            "./images/project/project_4_5.png",
-            "./images/project/project_4_6.png"
-        ]
-    },
-    {
-        "projectID": "5",
-        "projectTitle": "Lost Siblings",
-        "date": "5/4/2021",
-        "description": [
-            "A minimalistic 2.5D local co-op puzzle platforming game where the two characters (siblings) are connected together via a link that will break if both are too far apart.",
-            "",
-            "Two siblings lost in an unknown world. An unknown world filled with dangers and puzzles. Why are these two siblings in this world? Play as the two siblings connected by a link. Complete puzzles and collect coins. All the meanwhile staying connected to each other.",
-            "",
-            "Game consists of 4 level",
-            "",
-            "Made in Unity for College Game Jam"
-        ],
-        "projectType": "GAME",
-        "tag": [
-            "unity",
-            "platforming",
-            "puzzle",
-            "local-coop",
-            "game-jam"
-        ],
-        "projectLink": [
-            {
-                "linkSite": "Itch.io",
-                "linkUrl": "https://kudoshi.itch.io/lost-siblings"
-            },
-            {
-                "linkSite": "Github",
-                "linkUrl": "https://github.com/Kudoshi/LostSiblings"
-            }
-        ],
-        "pictureUrl": [
-            "./images/project/project_5_1.png",
-            "./images/project/project_5_2.png",
-            "./images/project/project_5_3.png",
-            "./images/project/project_5_4.png",
-            "./images/project/project_5_5.png",
-            "./images/project/project_5_6.png"
-        ]
-    },
-    {
-        "projectID": "6",
-        "projectTitle": "Survive the Demon Lord's Chaos or Not",
-        "date": "29/8/2021",
-        "description": [
-            "A top-down shooter game that allows you to build obstacles and juke enemies. You can build obstacles and build mazes. Build maze by building obstacles. The enemy cannot walk through one unit of space (the size of player).",
-            "",
-            "Features enemy AI that uses dynamic path finding and stats upgrade mechanic",
-            "",
-            "Made in Unity for Brackeys Game Jam 2021.2"
-        ],
-        "projectType": "GAME",
-        "tag": [
-            "unity",
-            "top-down-shooter",
-            "path-finding",
-            "building",
-            "game-jam"
-        ],
-        "projectLink": [],
-        "pictureUrl": [
-            "./images/project/project_6_1.png",
-            "./images/project/project_6_2.png",
-            "./images/project/project_6_3.png",
-            "./images/project/project_6_4.png"
-        ]
-    },
-    {
-        "projectID": "7",
-        "projectTitle": "Garden of Sins",
-        "date": "27/2/2022",
-        "description": [
-            "A story-based pixel art 2D puzzle platformer game where you solve puzzles by spawning a cube platform called Dream Box. Following the theme It is not real.",
-            "",
-            "Features a dialogue system, spawnable cube platform, puzzle mechanics (buttons, lever, pressure plate)",
-            "",
-            "The main programmer and game designer of the game. Developed together with 3 other developers.",
-            "",
-            "Made in Unity for the Brackeys Game Jam 2022.1"
-        ],
-        "projectType": "GAME",
-        "tag": [
-            "unity",
-            "puzzle",
-            "platformer",
-            "pixel-art",
-            "2D",
-            "game-jam"
-        ],
-        "projectLink": [
-            {
-                "linkSite": "Itch.io",
-                "linkUrl": "https://kudoshi.itch.io/gardenofsin"
-            },
-            {
-                "linkSite": "Github",
-                "linkUrl": "https://github.com/Kudoshi/Garden-of-Sins"
-            }
-        ],
-        "pictureUrl": [
-            "./images/project/project_7_1.png",
-            "./images/project/project_7_2.png",
-            "./images/project/project_7_3.png",
-            "./images/project/project_7_4.png",
-            "./images/project/project_7_5.png"
-        ]
-    },
-    {
-        "projectID": "8",
-        "projectTitle": "APUGDC's 2D Platformer",
-        "date": "11/4/2023",
-        "description": [
-            "A simple 2D Platformer designed for the levels to be easily created through drag and drop of prefabs.",
-            "Features enemies with point travel, spikes, and collectable coin.",
-            "",
-            "Made in Unity for APU Game Development Club's Introduction to Unity Workshop 2023"
-        ],
-        "projectType": "GAME",
-        "tag": [
-            "unity",
-            "2D",
-            "platformer"
-        ],
-        "projectLink": [
-            {
-                "linkSite": "Github",
-                "linkUrl": "https://github.com/Kudoshi/unity-2d-platformer-demo-tutorial"
-            }
-        ],
-        "pictureUrl": [
-            "./images/project/project_8_1.png",
-            "./images/project/project_8_2.png",
-            "./images/project/project_8_3.png",
-            "./images/project/project_8_4.png"
-        ]
-    },
-    {
-        "projectID": "9",
-        "projectTitle": "Skill Showdown",
-        "date": "30/3/2023",
-        "description": [
-            "A local 2 player top-down 3D action battle game. Two players fight against each other in an arena with obstacles using one-time use collectable skills.",
-            "Players will need to manage their skills as it does not come often! Knockback your enemies to gain space, set up traps to deal damage, or defend yourself from deadly attacks.",
-            "",
-            "Features controller support, scalable skill system, VFX Graph Skill Effects, and custom modelled assets.",
-            "",
-            "Developed in a team in a month as the game programmer with 9 other developers under the team name TehTarik",
-            "",
-            "Made in Unity for the University Game Dev League 2022 competition."
-        ],
-        "projectType": "GAME",
-        "tag": [
-            "unity",
-            "local-multiplayer",
-            "action",
-            "battle",
-            "competition"
-        ],
-        "projectLink": [],
-        "pictureUrl": [
-            "./images/project/project_9_1.png",
-            "./images/project/project_9_2.png",
-            "./images/project/project_9_3.png",
-            "./images/project/project_9_4.png",
-            "./images/project/project_9_5.png"
-        ]
-    },
-    {
-        "projectID": "10",
-        "projectTitle": "Brim: The Boss",
-        "date": "29/4/2023",
-        "description": [
-            "Brim: The Boss is an endless runner game that is inspired by Blades of Brim. Features a reverse looking camera pointing at the boss which throws rock at the player. Player has to avoid the rocks and obstacles and collect the gem which allows the boss to be killed. When the boss is killed, the game gets faster and harder.",
-            "",
-            "Developed in a team in a month as the main game programmer and game designer with 6 other developers under the team name TehTarik",
-            "",
-            "Made in Unity for the University Game Dev League 2022 competition."
-        ],
-        "projectType": "GAME",
-        "tag": [
-            "unity",
-            "endless-runner",
-            "boss-fight",
-            "competition"
-        ],
-        "projectLink": [],
-        "pictureUrl": [
-            "./images/project/project_10_1.png",
-            "./images/project/project_10_2.png",
-            "./images/project/project_10_3.png",
-            "./images/project/project_10_4.png",
-            "./images/project/project_10_5.png"
-        ]
-    },
-    {
-        "projectID": "11",
-        "projectTitle": "Alzheimer Fishing Simulator",
-        "date": "19/3/2023",
-        "description": [
-            "A fishing simulator game whereby the player has to hover the mouse over the fishing rod to complete the Catch Bar. The fishing rod will move around randomly, and player has to follow the movement. Upon filling the Catch Bar, the fish will then be caught. The more accurate you are with your mouse movement the more points you get.",
-            "",
-            "The fishing rod moves using the Bezier Curve method.",
-            "",
-            "Developed with Unity for Asia Pacific University's Alzhimex Project that aims to create a game that diagnose and monitors the condition of Alzheimer patients."
-        ],
-        "projectType": "GAME",
-        "tag": [
-            "unity",
-            "medical",
-            "fishing"
-        ],
-        "projectLink": [],
-        "pictureUrl": [
-            "./images/project/project_11_1.jpg",
-            "./images/project/project_11_2.jpg",
-            "./images/project/project_11_3.jpg",
-            "./images/project/project_11_4.jpg"
-        ]
-    },
-    {
-        "projectID": "12",
-        "projectTitle": "Railed to Rail",
-        "date": "30/7/2023",
-        "description": [
-            "A mobile browser-based hypercasual train game where the player has to place tracks in front of a moving train while avoiding the obstacles in the level.",
-            "",
-            "Features a track-placement system, collectables, highscore and procedurally generated level.",
-            "",
-            "Developed with 4 other developers as the game programmer.",
-            "",
-            "Created with Unity for the RedGames Jam 2023 hosted by AirAsia"
-        ],
-        "projectType": "GAME",
-        "tag": [
-            "unity",
-            "hypercasual",
-            "train"
-        ],
-        "projectLink": [
-            {
-                "linkSite": "Itch.io",
-                "linkUrl": "https://nixon-voxell.itch.io/railed-to-rail"
-            },
-            {
-                "linkSite": "Github",
-                "linkUrl": "https://github.com/Kudoshi/RedGames"
-            }
-        ],
-        "pictureUrl": [
-            "./images/project/project_12_1.png",
-            "./images/project/project_12_2.png",
-            "./images/project/project_12_3.png",
-            "./images/project/project_12_4.png",
-            "./images/project/project_12_5.png"
-        ]
-    },
-    {
-        "projectID": "13",
-        "projectTitle": "Its Stealin' Time",
-        "date": "18/7/2023",
-        "description": [
-            "A thief simulator game where the goal of the game is to steal items based on level's objective in a house while avoid being detected. There are CCTV and guards which can expose you. When you run or get exposed, you increase the detection meter which when filled, the player will lose the game. When the player steals the item, their movement speed will decrease based on the weight of the item. Therefore, the player needs to be smart in what to steal and when to unload the stolen items in their car.",
-            "",
-            "Developed with 3 other developers as the main programmer and game designer",
-            "",
-            "Made in Unreal for my university assignment project"
-        ],
-        "projectType": "GAME",
-        "tag": [
-            "unreal",
-            "thief-simulator"
-        ],
-        "projectLink": [
-            {
-                "linkSite": "Github",
-                "linkUrl": "https://github.com/Kudoshi/Its-Stealin-Time"
-            }
-        ],
-        "pictureUrl": [
-            "./images/project/project_13_1.png",
-            "./images/project/project_13_2.png",
-            "./images/project/project_13_3.png",
-            "./images/project/project_13_4.png",
-            "./images/project/project_13_5.png",
-            "./images/project/project_13_6.png"
-        ]
-    },
-    {
-        "projectID": "15",
-        "projectTitle": "Kasoku Gear",
-        "date": "17/6/2023",
-        "description": [
-            "A first-person arcade-style shooting game with weapon upgrade system. Features 4 levels, melee, gun shooting and ability card drops.",
-            "",
-            "Developed with 3 other developers as the game programmer and game designer",
-            "",
-            "Made in Unity for university assignment project"
-        ],
-        "projectType": "GAME",
-        "tag": [
-            "unity",
-            "shooter",
-            "FPS",
-            "arcade"
-        ],
-        "projectLink": [
-            {
-                "linkSite": "Github",
-                "linkUrl": "https://github.com/Kudoshi/Kasoku-Gear"
-            }
-        ],
-        "pictureUrl": [
-            "./images/project/project_15_1.png",
-            "./images/project/project_15_2.png",
-            "./images/project/project_15_3.png",
-            "./images/project/project_15_4.png"
-        ]
-    },
-    {
-        "projectID": "17",
-        "projectTitle": "Kasoku Gear: VR Combat",
-        "date": "1/8/2023",
-        "description": [
-            "A Virtual Reality first-person arcade-style shooting game with weapon upgrade system. Features 4 levels, melee, gun shooting and ability card drops.",
-            "A virtual reality port of the Kasoku Gear PC version. Game was adjusted and made to fit well into VR.",
-            "",
-            "Developed with 3 other developers as the game programmer and game designer.",
-            "",
-            "Made in Unity for university assignment project"
-        ],
-        "projectType": "GAME",
-        "tag": [
-            "unity",
-            "virtual-reality",
-            "FPS",
-            "arcade",
-            "shooting"
-        ],
-        "projectLink": [
-            {
-                "linkSite": "Github",
-                "linkUrl": "https://github.com/nixon-voxell/KasokuGear/tree/feature/VR"
-            }
-        ],
-        "pictureUrl": [
-            "./images/project/project_17_1.png",
-            "./images/project/project_17_2.png",
-            "./images/project/project_17_3.png",
-            "./images/project/project_17_4.png",
-            "./images/project/project_17_5.png"
-        ]
-    },
-    {
-        "projectID": "18",
-        "projectTitle": "Irritating Underwear X",
-        "date": "26/1/2024",
-        "description": [
-            "An action battle 2D pixel art based platformer wave survivor game where you play as the underwear hero fighting against the people to force them to wear underwear.",
-            "",
-            "An incomplete game developed with 2 other developers as the enemy AI programmer and sound designer under the team name Runtime Error",
-            "",
-            "Made with Godot in 3 days for the Global Game Jam 2024"
-        ],
-        "projectType": "GAME",
-        "tag": [
-            "godot",
-            "pixel-art",
-            "2D",
-            "action"
-        ],
-        "projectLink": [],
-        "pictureUrl": [
-            "./images/project/project_18_1.png",
-            "./images/project/project_18_2.png",
-            "./images/project/project_18_3.png"
-        ]
-    },
-    {
-        "projectID": "19",
-        "projectTitle": "Kudo the Destroyer",
-        "date": "15/11/2023",
-        "description": [
-            "An arcade style fast-paced action shooting game whereby the player aims to kill enemies and clear the level as fast as possible before the timer ticks zero.",
-            "",
-            "- 4 Unique Guns",
-            "- 4 Unique Rooms",
-            "- Kill enemies to add time",
-            "- Damage reduces your time",
-            "",
-            "Developed with 3 other developer as the main programmer, level designer and game designer under the team name KDStudio",
-            "",
-            "Made with Unity for university assignment project"
-        ],
-        "projectType": "GAME",
-        "tag": [
-            "unity",
-            "fps",
-            "fast-paced",
-            "shooting",
-            "arcade",
-            "speed-running"
-        ],
-        "projectLink": [
-            {
-                "linkSite": "Trailer Video",
-                "linkUrl": "https://www.instagram.com/p/C3FzxxPB2h2/"
-            }
-        ],
-        "pictureUrl": [
-            "./images/project/project_19_1.png",
-            "./images/project/project_19_2.png",
-            "./images/project/project_19_3.png",
-            "./images/project/project_19_4.png",
-            "./images/project/project_19_5.png",
-            "./images/project/project_19_6.png"
-        ]
-    },
-    {
-        "projectID": "20",
-        "projectTitle": "Galactic Guardian",
-        "date": "1/2/2024",
-        "description": [
-            "A strategy ship building game where you build your ship up as you survive from hordes of monsters as you escape to the portal",
-            "",
-            "Feature enemy spawner, enemy scaling, ship building, essence system and 3 level",
-            "",
-            "Developed with 2 other developer as the game programmer, vfx artist, sound designer and level designer",
-            "",
-            "Made with Unity for university assignment project"
-        ],
-        "projectType": "GAME",
-        "tag": [
-            "unity",
-            "strategy",
-            "ship-building"
-        ],
-        "projectLink": [
-            {
-                "linkSite": "Github",
-                "linkUrl": "https://github.com/Kudoshi/galacticguardian"
-            },
-            {
-                "linkSite": "Trailer",
-                "linkUrl": "https://www.instagram.com/p/C3cc_oohAJg/"
-            }
-        ],
-        "pictureUrl": [
-            "./images/project/project_20_1.png",
-            "./images/project/project_20_2.png",
-            "./images/project/project_20_3.png",
-            "./images/project/project_20_4.png"
-        ]
-    },
-    {
-        "projectID": "21",
-        "projectTitle": "Kantan Simple Total Timer",
-        "date": "21/11/2021",
-        "description": [
-            "An android mobile previously released in Google play store that is used to track total time. User is able to record a time and add it to the total time. Can be used to track total time studying, working or gaming.",
-            "",
-            "Made in Unity"
-        ],
-        "projectType": "PROGRAMMING",
-        "tag": [
-            "unity",
-            "mobile-app"
-        ],
-        "projectLink": [],
-        "pictureUrl": [
-            "./images/project/project_21_1.png",
-            "./images/project/project_21_2.png",
-            "./images/project/project_21_3.png"
-        ]
-    },
-    {
-        "projectID": "22",
-        "projectTitle": "Fishytable Market",
-        "date": "10/12/2021",
-        "description": [
-            "A fresh produce shopping website made for Malaysian farmers and fishermen to sell their fresh produce to customers similar to Shopee.",
-            "",
-            "In charge of the seller user role whereby seller can manage their product listings and view their orders from customers.",
-            "",
-            "Made in pure HTML, CSS, JS, Bootstrap and PHP connected to a local MySQL Database"
-        ],
-        "projectType": "GAME",
-        "tag": [
-            "website"
-        ],
-        "projectLink": [
-            {
-                "linkSite": "Github",
-                "linkUrl": "https://github.com/Kudoshi/fishytablemarket"
-            }
-        ],
-        "pictureUrl": [
-            "./images/project/project_22_1.png",
-            "./images/project/project_22_2.png",
-            "./images/project/project_22_3.png",
-            "./images/project/project_22_4.png"
-        ]
-    },
-    {
-        "projectID": "23",
-        "projectTitle": "JVendor",
-        "date": "14/4/2022",
-        "description": [
-            "A modern looking vending machine app made to imitate the UI of a screen-vending machine.",
-            "Customer is able view items and purchase items. Admin can manage item listings and see transaction history.",
-            "",
-            "Made in Java using Swing GUI utilizing text file as data storage for university's Java OOP assignment"
-        ],
-        "projectType": "PROGRAMMING",
-        "tag": [
-            "app",
-            "java",
-            "swing-gui"
-        ],
-        "projectLink": [],
-        "pictureUrl": [
-            "./images/project/project_23_1.png",
-            "./images/project/project_23_2.png",
-            "./images/project/project_23_3.png",
-            "./images/project/project_23_4.png",
-            "./images/project/project_23_5.png"
-        ]
-    },
-    {
-        "projectID": "24",
-        "projectTitle": "Unicom - Universal Competition Hosting ",
-        "date": "22/3/2022",
-        "description": [
-            "A competition hosting website to host and join any kind of event. 3 user role : user, organizer and admin",
-            "",
-            "Worked with 3 other developers where I lead the project in developing the front end and backend server",
-            "",
-            "Created using MERN stack(MongoDB, express, React and Node.js) connected to cloud MongoDB"
-        ],
-        "projectType": "PROGRAMMING",
-        "tag": [
-            "website",
-            "mern-stack",
-            "react"
-        ],
-        "projectLink": [],
-        "pictureUrl": [
-            "./images/project/project_24_1.png",
-            "./images/project/project_24_2.png",
-            "./images/project/project_24_3.png",
-            "./images/project/project_24_4.png"
-        ]
-    },
-    {
-        "projectID": "25",
-        "projectTitle": "Chat System - Many to one",
-        "date": "17/8/2022",
-        "description": [
-            "A chat app demo project similar to Whatsapp where many clients are able to message to one client server",
-            "Connect users via TCP Connection using multi-thread",
-            "",
-            "Made with C# using WPF utilizing MVC style"
-        ],
-        "projectType": "PROGRAMMING",
-        "tag": [
-            "c#",
-            "wpf",
-            "chat-system"
-        ],
-        "projectLink": [],
-        "pictureUrl": [
-            "./images/project/project_25_1.png",
-            "./images/project/project_25_2.png"
-        ]
-    },
-    {
-        "projectID": "26",
-        "projectTitle": "flutter mai-mai",
-        "date": "7/4/2023",
-        "description": [
-            "A rhythm game where you tap the lighted up buttons according to the beat of the music",
-            "",
-            "Made in flutter for Flutter Frenzy Workshop"
-        ],
-        "projectType": "PROGRAMMING",
-        "tag": [
-            "flutter",
-            "game"
-        ],
-        "projectLink": [],
-        "pictureUrl": [
-            "./images/project/project_26_1.png",
-            "./images/project/project_26_2.png",
-            "./images/project/project_26_3.png"
-        ]
-    },
-    {
-        "projectID": "27",
-        "projectTitle": "iipet - Gamifying Insurance Loyalty App ",
-        "date": "6/7/2023",
-        "description": [
-            "A proof-of-concept pet raising gamified Insurance loyalty app where it revolves around rewarding user via the pet system",
-            "",
-            "Developed with 5 other developers where I worked on the backend.",
-            "The project won the TuneProtect's Hackathon 2023",
-            "",
-            "Made with Angular connected to fastAPI and firebase"
-        ],
-        "projectType": "PROGRAMMING",
-        "tag": [
-            "app",
-            "backend"
-        ],
-        "projectLink": [],
-        "pictureUrl": [
-            "./images/project/project_27_1.png",
-            "./images/project/project_27_2.png",
-            "./images/project/project_27_3.png"
-        ]
-    },
-    {
-        "projectID": "28",
-        "projectTitle": "Kudoshi Portfolio Website",
-        "date": "5/2/2024",
-        "description": [
-            "Portfolio website made with React hosted using Github Pages",
-            "",
-            "Uses JSON to save project information",
-            "Has a project creator form tool to create json object to fill in JSON"
-        ],
-        "projectType": "PROGRAMMING",
-        "tag": [
-            "website",
-            "react"
-        ],
-        "projectLink": [],
-        "pictureUrl": [
-            "./images/project/project_28_1.png"
-        ]
-    },
-    {
-        "projectID": "29",
-        "projectTitle": "Let Him Cook",
-        "date": "27/2/2024",
-        "description": [
-            "Let Him Cook is a simple 3-4 player card game where you collect ingredients and complete orders racing to be the first to get 10 points to be the winner of the game. It is inspired by Catan where we took the fun part of the trading and material system into a cooking game where the game revolves around the trading and collection of ingredients. Players can trade, collect ingredients, use power cards and complete their orders to achieve points. This card game is physically made and created to tailor to a physical card game experience.",
-            "",
-            "Made with 3 other teammates where I did balancing of game, creation of cards and the art design of the cards."
-        ],
-        "projectType": "GAME",
-        "tag": [
-            "card-game",
-            "board-game"
-        ],
-        "projectLink": [],
-        "pictureUrl": [
-            "./images/project/project_29_1.png",
-            "./images/project/project_29_2.png",
-            "./images/project/project_29_3.png",
-            "./images/project/project_29_4.png"
-        ]
-    },
-    {
-        "projectID": "30",
-        "projectTitle": "OBOK",
-        "date": "5/12/2024",
-        "description": [
-            "One Blast One Kill",
-            "A fast-paced, casual 3v3 online multiplayer arena shooter for Android! This top-down action game is all about precision and strategy—just one blast is enough to take out your enemies. Bounce your shots off walls, outsmart your opponents, and dominate the arena. Upgrade your blast to gain the upper hand and become the ultimate blaster!",
-            "",
-            "Developed in a team of 3 as the multiplayer game programmer",
-            "",
-            "Made with Unity using Unity Netcode with Unity Relay and Lobby service"
-        ],
-        "projectType": "GAME",
-        "tag": [
-            "unity",
-            "multiplayer",
-            "netcode",
-            "mobile",
-            "android"
-        ],
-        "projectLink": [
-            {
-                "linkSite": "Youtube Trailer",
-                "linkUrl": "https://youtu.be/X_bkaWL73vY"
-            },
-            {
-                "linkSite": "Game and Project Download",
-                "linkUrl": "https://cloudmails-my.sharepoint.com/:f:/g/personal/tp061596_mail_apu_edu_my/Eq2dsLY1HmFJqSA2hcfhoY8BxWXnnssMwlzMX-_AEb5l9Q?e=eIBBZS"
-            }
-        ],
-        "pictureUrl": [
-            "./images/project/project_30_1.png",
-            "./images/project/project_30_2.png",
-            "./images/project/project_30_3.png",
-            "./images/project/project_30_4.png",
-            "./images/project/project_30_5.png"
-        ]
-    },
-    {
-        "projectID": "31",
-        "projectTitle": "PTSD",
-        "date": "5/12/2024",
-        "description": [
-            "Part Time Sewer Depo. (P.T.S.D) is a 3D multiplayer survival horror up to 3 players. It follows a group of part time employees of a megacorporation that fixes sewers. The players will play as an employee that will go on a thrilling adventure through the different sewer systems trying to complete their objectives either before the timer runs out while getting chased by a monster",
-            "",
-            "Developed with a team of 3 as the multiplayer game programmer",
-            "",
-            "Made with Unreal utilizing Epic Online Service for multiplayer using EOS Integration Kit"
-        ],
-        "projectType": "GAME",
-        "tag": [
-            "unreal",
-            "multipler",
-            "eos",
-            "horror"
-        ],
-        "projectLink": [
-            {
-                "linkSite": "Youtube Trailer",
-                "linkUrl": "https://youtu.be/dy5_HS7N-uc"
-            },
-            {
-                "linkSite": "Game Download",
-                "linkUrl": "https://drive.google.com/drive/folders/13THfSXDng6lsY0uyFf9Amv41YMwuBMFt?usp=sharing"
-            }
-        ],
-        "pictureUrl": [
-            "./images/project/project_31_1.png",
-            "./images/project/project_31_2.png",
-            "./images/project/project_31_3.png",
-            "./images/project/project_31_5.png",
-            "./images/project/project_31_6.png"
-        ]
-    },
-    {
-        "projectID": "32",
-        "projectTitle": "Lazy Wizard In My Pocket",
-        "date": "26/1/2025",
-        "description": [
-            "A 2D pixel art casual game where you are the town’s repair pro with a big secret: a lazy wizard who does all the work... with bubbles. The catch? The wizard’s too tired to care, so you’ll need to blow and shape magical bubbles into the perfect fixes. But bubble magic is limited—because, you know, the wizard’s lazy.",
-            "",
-            "Developed in Unity with a team of 5 as the lead programmer for the Global Game Jam 2025"
-        ],
-        "projectType": "GAME",
-        "tag": [
-            "unity",
-            "casual",
-            "pixel-art",
-            "2D",
-            "game-jam"
-        ],
-        "projectLink": [
-            {
-                "linkSite": "Itch.io",
-                "linkUrl": "https://dawnin64.itch.io/lazy-wizard-in-my-pocket"
-            }
-        ],
-        "pictureUrl": [
-            "./images/project/project_32_1.png",
-            "./images/project/project_32_2.png",
-            "./images/project/project_32_3.png",
-            "./images/project/project_32_4.png"
-        ]
-    },
-    {
-        "projectID": "33",
-        "projectTitle": "FiresOut!",
-        "date": "24/4/2025",
-        "description": [
-            "FiresOut! is a fast-paced, chaotic, and laugh-out-loud local co-op firefighting game where teamwork makes the dream work... or total disaster! Inspired by games like Overcooked and Moving Out, grab your gear and your best buddy as you dive into burning houses, dodge fireballs, and rescue helpless victims from fire monsters run amok.",
-            "",
-            "Developed in Unity under the studio name of Enmu Studio in a team of 5 as the project manager, game programmer and sound designer"
-        ],
-        "projectType": "GAME",
-        "tag": [
-            "unity",
-            "chaotic",
-            "local-coop"
-        ],
-        "projectLink": [
-            {
-                "linkSite": "Itch.io",
-                "linkUrl": "https://enmu-studio.itch.io/firesout"
-            }
-        ],
-        "pictureUrl": [
-            "./images/project/project_33_1.png",
-            "./images/project/project_33_2.png",
-            "./images/project/project_33_3.png",
-            "./images/project/project_33_4.png",
-            "./images/project/project_33_5.png"
-        ]
-    },
-    {
-        "projectID": "34",
-        "projectTitle": "Dragon Requiem",
-        "date": "14/5/2024",
-        "description": [
-            "Dragon Requiem is a 3rd person RTS-like troop commanding base building game where player has to gather resources during the day and fight against the monster swarming your base at night. Player can build towers and build barracks to hire troops which they can command.",
-            "",
-            "Game features troop commanding, base building, resource management, AI enemies and troop and day-night cycle",
-            "",
-            "Created for a game jam using Unity within one month with a team of 5 as the lead game programmer"
-        ],
-        "projectType": "GAME",
-        "tag": [
-            "troop-commanding",
-            "base-building"
-        ],
-        "projectLink": [
-            {
-                "linkSite": "Youtube",
-                "linkUrl": "https://www.youtube.com/watch?v=i-mqlvLQSm8&ab_channel=AYoYo"
-            }
-        ],
-        "pictureUrl": [
-            "./images/project/project_34_1.jpg",
-            "./images/project/project_34_2.jpg",
-            "./images/project/project_34_3.jpg",
-            "./images/project/project_34_4.jpg"
-        ]
-    }
+  {
+    "projectID": 0,
+    "projectTitle": "Tree Tag Tremble",
+    "date": "27/4/2020",
+    "description": [
+      "A recreation of Warcraft 3's massively popular Tree Tag Tremble made in Dota 2's Hammer Editor having over 1000+ player subscribers.",
+      "",
+      "A hide and seek tag game where the \"Inferno\" chases after the \"Ent\" while the Ent tries to survive.",
+      "",
+      "Developed together with TeddehMiracle and [N]ightwing"
+    ],
+    "projectType": "GAME",
+    "tag": [
+      "dota-2",
+      "lua",
+      "hammer-editor",
+      "game"
+    ],
+    "projectLink": [
+      {
+        "linkSite": "Steam Workshop",
+        "linkUrl": "https://steamcommunity.com/sharedfiles/filedetails/?id=2075256320"
+      },
+      {
+        "linkSite": "Github",
+        "linkUrl": "https://github.com/Kudoshi/tree_tag_tremble_game_site/tree/master"
+      }
+    ],
+    "pictureUrl": [
+      "./images/project/project_0_1.png",
+      "./images/project/project_0_2.png",
+      "./images/project/project_0_3.png",
+      "./images/project/project_0_4.png",
+      "./images/project/project_0_5.png"
+    ]
+  },
+  {
+    "projectID": 1,
+    "projectTitle": "Volleyball 2D",
+    "date": "16/11/2020",
+    "description": [
+      "A local multiplayer volleyball game where you have to hit the ball across the net to the opponent's side",
+      "",
+      "Features a dash, boost and a 3 hit ball possession mechanic"
+    ],
+    "projectType": "GAME",
+    "tag": [
+      "unity",
+      "2D",
+      "sports",
+      "local-multiplayer"
+    ],
+    "projectLink": [
+      {
+        "linkSite": "Itch.io",
+        "linkUrl": "https://kudoshi.itch.io/volleyball-2d"
+      }
+    ],
+    "pictureUrl": [
+      "./images/project/project_1_1.png",
+      "./images/project/project_1_2.png",
+      "./images/project/project_1_3.png",
+      "./images/project/project_1_4.png"
+    ]
+  },
+  {
+    "projectID": 2,
+    "projectTitle": "Battle Monster But Less Is More",
+    "date": "29/1/2021",
+    "description": [
+      "A simple games based on Less Is More. You tweak your stats to gain higher score to defeat enemies. The less stronger your monster is, the more score you get.",
+      "",
+      "- Tweak your stats to increase your multiplier to gain more score",
+      "- Beat your highscore by optimizing your stats",
+      "- Beat the enemy monster in as less turn as possible to gain more score",
+      "",
+      "Made in Unity for the Blackthornprod's Game Jam in 1 week"
+    ],
+    "projectType": "GAME",
+    "tag": [
+      "unity",
+      "game-jam",
+      "turn-based"
+    ],
+    "projectLink": [
+      {
+        "linkSite": "Itch.io",
+        "linkUrl": "https://kudoshi.itch.io/battle-monster-but-less-is-more"
+      },
+      {
+        "linkSite": "Github",
+        "linkUrl": "https://github.com/Kudoshi/Monster-Battle-But-Less-Is-More"
+      }
+    ],
+    "pictureUrl": [
+      "./images/project/project_2_1.png",
+      "./images/project/project_2_2.png",
+      "./images/project/project_2_3.png",
+      "./images/project/project_2_4.png"
+    ]
+  },
+  {
+    "projectID": 3,
+    "projectTitle": "Stronger Together",
+    "date": "21/2/2021",
+    "description": [
+      "A platforming game where you can create platforms following the theme Stronger Together. Gather your allies that helps you build more platforms.",
+      "My first 3D game made",
+      "",
+      "Made in Unity for Brackey Game Jam"
+    ],
+    "projectType": "GAME",
+    "tag": [
+      "unity",
+      "platformer",
+      "3D",
+      "game-jam"
+    ],
+    "projectLink": [],
+    "pictureUrl": [
+      "./images/project/project_3_1.png",
+      "./images/project/project_3_2.png",
+      "./images/project/project_3_3.png"
+    ]
+  },
+  {
+    "projectID": 4,
+    "projectTitle": "Do Not Follow The Task",
+    "date": "1/3/2021",
+    "description": [
+      "A puzzle solving game where you are trapped by an AI and needs to do the opposite of what the game tells you to do.",
+      "",
+      "There are in total 5 different puzzles with each puzzle featuring a totally new rules and way of playing",
+      "",
+      "Created in Unity for Wowie GameJam 2021"
+    ],
+    "projectType": "GAME",
+    "tag": [
+      "unity",
+      "puzzle",
+      "game-jam"
+    ],
+    "projectLink": [
+      {
+        "linkSite": "Itch.io",
+        "linkUrl": "https://kudoshi.itch.io/do-not-follow-the-task"
+      }
+    ],
+    "pictureUrl": [
+      "./images/project/project_4_1.png",
+      "./images/project/project_4_2.png",
+      "./images/project/project_4_3.png",
+      "./images/project/project_4_4.png",
+      "./images/project/project_4_5.png",
+      "./images/project/project_4_6.png"
+    ]
+  },
+  {
+    "projectID": 5,
+    "projectTitle": "Lost Siblings",
+    "date": "5/4/2021",
+    "description": [
+      "A minimalistic 2.5D local co-op puzzle platforming game where the two characters (siblings) are connected together via a link that will break if both are too far apart.",
+      "",
+      "Two siblings lost in an unknown world. An unknown world filled with dangers and puzzles. Why are these two siblings in this world? Play as the two siblings connected by a link. Complete puzzles and collect coins. All the meanwhile staying connected to each other.",
+      "",
+      "Game consists of 4 level",
+      "",
+      "Made in Unity for College Game Jam"
+    ],
+    "projectType": "GAME",
+    "tag": [
+      "unity",
+      "platforming",
+      "puzzle",
+      "local-coop",
+      "game-jam"
+    ],
+    "projectLink": [
+      {
+        "linkSite": "Itch.io",
+        "linkUrl": "https://kudoshi.itch.io/lost-siblings"
+      },
+      {
+        "linkSite": "Github",
+        "linkUrl": "https://github.com/Kudoshi/LostSiblings"
+      }
+    ],
+    "pictureUrl": [
+      "./images/project/project_5_1.png",
+      "./images/project/project_5_2.png",
+      "./images/project/project_5_3.png",
+      "./images/project/project_5_4.png",
+      "./images/project/project_5_5.png",
+      "./images/project/project_5_6.png"
+    ]
+  },
+  {
+    "projectID": 6,
+    "projectTitle": "Survive the Demon Lord's Chaos or Not",
+    "date": "29/8/2021",
+    "description": [
+      "A top-down shooter game that allows you to build obstacles and juke enemies. You can build obstacles and build mazes. Build maze by building obstacles. The enemy cannot walk through one unit of space (the size of player).",
+      "",
+      "Features enemy AI that uses dynamic path finding and stats upgrade mechanic",
+      "",
+      "Made in Unity for Brackeys Game Jam 2021.2"
+    ],
+    "projectType": "GAME",
+    "tag": [
+      "unity",
+      "top-down-shooter",
+      "path-finding",
+      "building",
+      "game-jam"
+    ],
+    "projectLink": [],
+    "pictureUrl": [
+      "./images/project/project_6_1.png",
+      "./images/project/project_6_2.png",
+      "./images/project/project_6_3.png",
+      "./images/project/project_6_4.png"
+    ]
+  },
+  {
+    "projectID": 7,
+    "projectTitle": "Garden of Sins",
+    "date": "27/2/2022",
+    "description": [
+      "A story-based pixel art 2D puzzle platformer game where you solve puzzles by spawning a cube platform called Dream Box. Following the theme It is not real.",
+      "",
+      "Features a dialogue system, spawnable cube platform, puzzle mechanics (buttons, lever, pressure plate)",
+      "",
+      "The main programmer and game designer of the game. Developed together with 3 other developers.",
+      "",
+      "Made in Unity for the Brackeys Game Jam 2022.1"
+    ],
+    "projectType": "GAME",
+    "tag": [
+      "unity",
+      "puzzle",
+      "platformer",
+      "pixel-art",
+      "2D",
+      "game-jam"
+    ],
+    "projectLink": [
+      {
+        "linkSite": "Itch.io",
+        "linkUrl": "https://kudoshi.itch.io/gardenofsin"
+      },
+      {
+        "linkSite": "Github",
+        "linkUrl": "https://github.com/Kudoshi/Garden-of-Sins"
+      }
+    ],
+    "pictureUrl": [
+      "./images/project/project_7_1.png",
+      "./images/project/project_7_2.png",
+      "./images/project/project_7_3.png",
+      "./images/project/project_7_4.png",
+      "./images/project/project_7_5.png"
+    ]
+  },
+  {
+    "projectID": 8,
+    "projectTitle": "APUGDC's 2D Platformer",
+    "date": "11/4/2023",
+    "description": [
+      "A simple 2D Platformer designed for the levels to be easily created through drag and drop of prefabs.",
+      "Features enemies with point travel, spikes, and collectable coin.",
+      "",
+      "Made in Unity for APU Game Development Club's Introduction to Unity Workshop 2023"
+    ],
+    "projectType": "GAME",
+    "tag": [
+      "unity",
+      "2D",
+      "platformer"
+    ],
+    "projectLink": [
+      {
+        "linkSite": "Github",
+        "linkUrl": "https://github.com/Kudoshi/unity-2d-platformer-demo-tutorial"
+      }
+    ],
+    "pictureUrl": [
+      "./images/project/project_8_1.png",
+      "./images/project/project_8_2.png",
+      "./images/project/project_8_3.png",
+      "./images/project/project_8_4.png"
+    ]
+  },
+  {
+    "projectID": 9,
+    "projectTitle": "Skill Showdown",
+    "date": "30/3/2023",
+    "description": [
+      "A local 2 player top-down 3D action battle game. Two players fight against each other in an arena with obstacles using one-time use collectable skills.",
+      "Players will need to manage their skills as it does not come often! Knockback your enemies to gain space, set up traps to deal damage, or defend yourself from deadly attacks.",
+      "",
+      "Features controller support, scalable skill system, VFX Graph Skill Effects, and custom modelled assets.",
+      "",
+      "Developed in a team in a month as the game programmer with 9 other developers under the team name TehTarik",
+      "",
+      "Made in Unity for the University Game Dev League 2022 competition."
+    ],
+    "projectType": "GAME",
+    "tag": [
+      "unity",
+      "local-multiplayer",
+      "action",
+      "battle",
+      "competition"
+    ],
+    "projectLink": [],
+    "pictureUrl": [
+      "./images/project/project_9_1.png",
+      "./images/project/project_9_2.png",
+      "./images/project/project_9_3.png",
+      "./images/project/project_9_4.png",
+      "./images/project/project_9_5.png"
+    ]
+  },
+  {
+    "projectID": 10,
+    "projectTitle": "Brim: The Boss",
+    "date": "29/4/2023",
+    "description": [
+      "Brim: The Boss is an endless runner game that is inspired by Blades of Brim. Features a reverse looking camera pointing at the boss which throws rock at the player. Player has to avoid the rocks and obstacles and collect the gem which allows the boss to be killed. When the boss is killed, the game gets faster and harder.",
+      "",
+      "Developed in a team in a month as the main game programmer and game designer with 6 other developers under the team name TehTarik",
+      "",
+      "Made in Unity for the University Game Dev League 2022 competition."
+    ],
+    "projectType": "GAME",
+    "tag": [
+      "unity",
+      "endless-runner",
+      "boss-fight",
+      "competition"
+    ],
+    "projectLink": [],
+    "pictureUrl": [
+      "./images/project/project_10_1.png",
+      "./images/project/project_10_2.png",
+      "./images/project/project_10_3.png",
+      "./images/project/project_10_4.png",
+      "./images/project/project_10_5.png"
+    ]
+  },
+  {
+    "projectID": 11,
+    "projectTitle": "Alzheimer Fishing Simulator",
+    "date": "19/3/2023",
+    "description": [
+      "A fishing simulator game whereby the player has to hover the mouse over the fishing rod to complete the Catch Bar. The fishing rod will move around randomly, and player has to follow the movement. Upon filling the Catch Bar, the fish will then be caught. The more accurate you are with your mouse movement the more points you get.",
+      "",
+      "The fishing rod moves using the Bezier Curve method.",
+      "",
+      "Developed with Unity for Asia Pacific University's Alzhimex Project that aims to create a game that diagnose and monitors the condition of Alzheimer patients."
+    ],
+    "projectType": "GAME",
+    "tag": [
+      "unity",
+      "medical",
+      "fishing"
+    ],
+    "projectLink": [],
+    "pictureUrl": [
+      "./images/project/project_11_1.jpg",
+      "./images/project/project_11_2.jpg",
+      "./images/project/project_11_3.jpg",
+      "./images/project/project_11_4.jpg"
+    ]
+  },
+  {
+    "projectID": 12,
+    "projectTitle": "Railed to Rail",
+    "date": "30/7/2023",
+    "description": [
+      "A mobile browser-based hypercasual train game where the player has to place tracks in front of a moving train while avoiding the obstacles in the level.",
+      "",
+      "Features a track-placement system, collectables, highscore and procedurally generated level.",
+      "",
+      "Developed with 4 other developers as the game programmer.",
+      "",
+      "Created with Unity for the RedGames Jam 2023 hosted by AirAsia"
+    ],
+    "projectType": "GAME",
+    "tag": [
+      "unity",
+      "hypercasual",
+      "train"
+    ],
+    "projectLink": [
+      {
+        "linkSite": "Itch.io",
+        "linkUrl": "https://nixon-voxell.itch.io/railed-to-rail"
+      },
+      {
+        "linkSite": "Github",
+        "linkUrl": "https://github.com/Kudoshi/RedGames"
+      }
+    ],
+    "pictureUrl": [
+      "./images/project/project_12_1.png",
+      "./images/project/project_12_2.png",
+      "./images/project/project_12_3.png",
+      "./images/project/project_12_4.png",
+      "./images/project/project_12_5.png"
+    ]
+  },
+  {
+    "projectID": 13,
+    "projectTitle": "Its Stealin' Time",
+    "date": "18/7/2023",
+    "description": [
+      "A thief simulator game where the goal of the game is to steal items based on level's objective in a house while avoid being detected. There are CCTV and guards which can expose you. When you run or get exposed, you increase the detection meter which when filled, the player will lose the game. When the player steals the item, their movement speed will decrease based on the weight of the item. Therefore, the player needs to be smart in what to steal and when to unload the stolen items in their car.",
+      "",
+      "Developed with 3 other developers as the main programmer and game designer",
+      "",
+      "Made in Unreal for my university assignment project"
+    ],
+    "projectType": "GAME",
+    "tag": [
+      "unreal",
+      "thief-simulator"
+    ],
+    "projectLink": [
+      {
+        "linkSite": "Github",
+        "linkUrl": "https://github.com/Kudoshi/Its-Stealin-Time"
+      }
+    ],
+    "pictureUrl": [
+      "./images/project/project_13_1.png",
+      "./images/project/project_13_2.png",
+      "./images/project/project_13_3.png",
+      "./images/project/project_13_4.png",
+      "./images/project/project_13_5.png",
+      "./images/project/project_13_6.png"
+    ]
+  },
+  {
+    "projectID": 14,
+    "projectTitle": "Kasoku Gear",
+    "date": "17/6/2023",
+    "description": [
+      "A first-person arcade-style shooting game with weapon upgrade system. Features 4 levels, melee, gun shooting and ability card drops.",
+      "",
+      "Developed with 3 other developers as the game programmer and game designer",
+      "",
+      "Made in Unity for university assignment project"
+    ],
+    "projectType": "GAME",
+    "tag": [
+      "unity",
+      "shooter",
+      "FPS",
+      "arcade"
+    ],
+    "projectLink": [
+      {
+        "linkSite": "Github",
+        "linkUrl": "https://github.com/Kudoshi/Kasoku-Gear"
+      }
+    ],
+    "pictureUrl": [
+      "./images/project/project_15_1.png",
+      "./images/project/project_15_2.png",
+      "./images/project/project_15_3.png",
+      "./images/project/project_15_4.png"
+    ]
+  },
+  {
+    "projectID": 15,
+    "projectTitle": "Kasoku Gear: VR Combat",
+    "date": "1/8/2023",
+    "description": [
+      "A Virtual Reality first-person arcade-style shooting game with weapon upgrade system. Features 4 levels, melee, gun shooting and ability card drops.",
+      "A virtual reality port of the Kasoku Gear PC version. Game was adjusted and made to fit well into VR.",
+      "",
+      "Developed with 3 other developers as the game programmer and game designer.",
+      "",
+      "Made in Unity for university assignment project"
+    ],
+    "projectType": "GAME",
+    "tag": [
+      "unity",
+      "virtual-reality",
+      "FPS",
+      "arcade",
+      "shooting"
+    ],
+    "projectLink": [
+      {
+        "linkSite": "Github",
+        "linkUrl": "https://github.com/nixon-voxell/KasokuGear/tree/feature/VR"
+      }
+    ],
+    "pictureUrl": [
+      "./images/project/project_17_1.png",
+      "./images/project/project_17_2.png",
+      "./images/project/project_17_3.png",
+      "./images/project/project_17_4.png",
+      "./images/project/project_17_5.png"
+    ]
+  },
+  {
+    "projectID": 16,
+    "projectTitle": "Irritating Underwear X",
+    "date": "26/1/2024",
+    "description": [
+      "An action battle 2D pixel art based platformer wave survivor game where you play as the underwear hero fighting against the people to force them to wear underwear.",
+      "",
+      "An incomplete game developed with 2 other developers as the enemy AI programmer and sound designer under the team name Runtime Error",
+      "",
+      "Made with Godot in 3 days for the Global Game Jam 2024"
+    ],
+    "projectType": "GAME",
+    "tag": [
+      "godot",
+      "pixel-art",
+      "2D",
+      "action"
+    ],
+    "projectLink": [],
+    "pictureUrl": [
+      "./images/project/project_18_1.png",
+      "./images/project/project_18_2.png",
+      "./images/project/project_18_3.png"
+    ]
+  },
+  {
+    "projectID": 17,
+    "projectTitle": "Kudo the Destroyer",
+    "date": "15/11/2023",
+    "description": [
+      "An arcade style fast-paced action shooting game whereby the player aims to kill enemies and clear the level as fast as possible before the timer ticks zero.",
+      "",
+      "- 4 Unique Guns",
+      "- 4 Unique Rooms",
+      "- Kill enemies to add time",
+      "- Damage reduces your time",
+      "",
+      "Developed with 3 other developer as the main programmer, level designer and game designer under the team name KDStudio",
+      "",
+      "Made with Unity for university assignment project"
+    ],
+    "projectType": "GAME",
+    "tag": [
+      "unity",
+      "fps",
+      "fast-paced",
+      "shooting",
+      "arcade",
+      "speed-running"
+    ],
+    "projectLink": [
+      {
+        "linkSite": "Trailer Video",
+        "linkUrl": "https://www.instagram.com/p/C3FzxxPB2h2/"
+      }
+    ],
+    "pictureUrl": [
+      "./images/project/project_19_1.png",
+      "./images/project/project_19_2.png",
+      "./images/project/project_19_3.png",
+      "./images/project/project_19_4.png",
+      "./images/project/project_19_5.png",
+      "./images/project/project_19_6.png"
+    ]
+  },
+  {
+    "projectID": 18,
+    "projectTitle": "Galactic Guardian",
+    "date": "1/2/2024",
+    "description": [
+      "A strategy ship building game where you build your ship up as you survive from hordes of monsters as you escape to the portal",
+      "",
+      "Feature enemy spawner, enemy scaling, ship building, essence system and 3 level",
+      "",
+      "Developed with 2 other developer as the game programmer, vfx artist, sound designer and level designer",
+      "",
+      "Made with Unity for university assignment project"
+    ],
+    "projectType": "GAME",
+    "tag": [
+      "unity",
+      "strategy",
+      "ship-building"
+    ],
+    "projectLink": [
+      {
+        "linkSite": "Github",
+        "linkUrl": "https://github.com/Kudoshi/galacticguardian"
+      },
+      {
+        "linkSite": "Trailer",
+        "linkUrl": "https://www.instagram.com/p/C3cc_oohAJg/"
+      }
+    ],
+    "pictureUrl": [
+      "./images/project/project_20_1.png",
+      "./images/project/project_20_2.png",
+      "./images/project/project_20_3.png",
+      "./images/project/project_20_4.png"
+    ]
+  },
+  {
+    "projectID": 19,
+    "projectTitle": "Kantan Simple Total Timer",
+    "date": "21/11/2021",
+    "description": [
+      "An android mobile previously released in Google play store that is used to track total time. User is able to record a time and add it to the total time. Can be used to track total time studying, working or gaming.",
+      "",
+      "Made in Unity"
+    ],
+    "projectType": "PROGRAMMING",
+    "tag": [
+      "unity",
+      "mobile-app"
+    ],
+    "projectLink": [],
+    "pictureUrl": [
+      "./images/project/project_21_1.png",
+      "./images/project/project_21_2.png",
+      "./images/project/project_21_3.png"
+    ]
+  },
+  {
+    "projectID": 20,
+    "projectTitle": "Fishytable Market",
+    "date": "10/12/2021",
+    "description": [
+      "A fresh produce shopping website made for Malaysian farmers and fishermen to sell their fresh produce to customers similar to Shopee.",
+      "",
+      "In charge of the seller user role whereby seller can manage their product listings and view their orders from customers.",
+      "",
+      "Made in pure HTML, CSS, JS, Bootstrap and PHP connected to a local MySQL Database"
+    ],
+    "projectType": "PROGRAMMING",
+    "tag": [
+      "website"
+    ],
+    "projectLink": [
+      {
+        "linkSite": "Github",
+        "linkUrl": "https://github.com/Kudoshi/fishytablemarket"
+      }
+    ],
+    "pictureUrl": [
+      "./images/project/project_22_1.png",
+      "./images/project/project_22_2.png",
+      "./images/project/project_22_3.png",
+      "./images/project/project_22_4.png"
+    ]
+  },
+  {
+    "projectID": 21,
+    "projectTitle": "JVendor",
+    "date": "14/4/2022",
+    "description": [
+      "A modern looking vending machine app made to imitate the UI of a screen-vending machine.",
+      "Customer is able view items and purchase items. Admin can manage item listings and see transaction history.",
+      "",
+      "Made in Java using Swing GUI utilizing text file as data storage for university's Java OOP assignment"
+    ],
+    "projectType": "PROGRAMMING",
+    "tag": [
+      "app",
+      "java",
+      "swing-gui"
+    ],
+    "projectLink": [],
+    "pictureUrl": [
+      "./images/project/project_23_1.png",
+      "./images/project/project_23_2.png",
+      "./images/project/project_23_3.png",
+      "./images/project/project_23_4.png",
+      "./images/project/project_23_5.png"
+    ]
+  },
+  {
+    "projectID": 22,
+    "projectTitle": "Unicom - Universal Competition Hosting ",
+    "date": "22/3/2022",
+    "description": [
+      "A competition hosting website to host and join any kind of event. 3 user role : user, organizer and admin",
+      "",
+      "Worked with 3 other developers where I lead the project in developing the front end and backend server",
+      "",
+      "Created using MERN stack(MongoDB, express, React and Node.js) connected to cloud MongoDB"
+    ],
+    "projectType": "PROGRAMMING",
+    "tag": [
+      "website",
+      "mern-stack",
+      "react"
+    ],
+    "projectLink": [],
+    "pictureUrl": [
+      "./images/project/project_24_1.png",
+      "./images/project/project_24_2.png",
+      "./images/project/project_24_3.png",
+      "./images/project/project_24_4.png"
+    ]
+  },
+  {
+    "projectID": 23,
+    "projectTitle": "Chat System - Many to one",
+    "date": "17/8/2022",
+    "description": [
+      "A chat app demo project similar to Whatsapp where many clients are able to message to one client server",
+      "Connect users via TCP Connection using multi-thread",
+      "",
+      "Made with C# using WPF utilizing MVC style"
+    ],
+    "projectType": "PROGRAMMING",
+    "tag": [
+      "c#",
+      "wpf",
+      "chat-system"
+    ],
+    "projectLink": [],
+    "pictureUrl": [
+      "./images/project/project_25_1.png",
+      "./images/project/project_25_2.png"
+    ]
+  },
+  {
+    "projectID": 24,
+    "projectTitle": "flutter mai-mai",
+    "date": "7/4/2023",
+    "description": [
+      "A rhythm game where you tap the lighted up buttons according to the beat of the music",
+      "",
+      "Made in flutter for Flutter Frenzy Workshop"
+    ],
+    "projectType": "PROGRAMMING",
+    "tag": [
+      "flutter",
+      "game"
+    ],
+    "projectLink": [],
+    "pictureUrl": [
+      "./images/project/project_26_1.png",
+      "./images/project/project_26_2.png",
+      "./images/project/project_26_3.png"
+    ]
+  },
+  {
+    "projectID": 25,
+    "projectTitle": "iipet - Gamifying Insurance Loyalty App ",
+    "date": "6/7/2023",
+    "description": [
+      "A proof-of-concept pet raising gamified Insurance loyalty app where it revolves around rewarding user via the pet system",
+      "",
+      "Developed with 5 other developers where I worked on the backend.",
+      "The project won the TuneProtect's Hackathon 2023",
+      "",
+      "Made with Angular connected to fastAPI and firebase"
+    ],
+    "projectType": "PROGRAMMING",
+    "tag": [
+      "app",
+      "backend"
+    ],
+    "projectLink": [],
+    "pictureUrl": [
+      "./images/project/project_27_1.png",
+      "./images/project/project_27_2.png",
+      "./images/project/project_27_3.png"
+    ]
+  },
+  {
+    "projectID": 26,
+    "projectTitle": "Kudoshi Portfolio Website",
+    "date": "5/2/2024",
+    "description": [
+      "Portfolio website made with React hosted using Github Pages",
+      "",
+      "Uses JSON to save project information",
+      "Has a project creator form tool to create json object to fill in JSON"
+    ],
+    "projectType": "PROGRAMMING",
+    "tag": [
+      "website",
+      "react"
+    ],
+    "projectLink": [],
+    "pictureUrl": [
+      "./images/project/project_28_1.png"
+    ]
+  },
+  {
+    "projectID": 27,
+    "projectTitle": "Let Him Cook",
+    "date": "27/2/2024",
+    "description": [
+      "Let Him Cook is a simple 3-4 player card game where you collect ingredients and complete orders racing to be the first to get 10 points to be the winner of the game. It is inspired by Catan where we took the fun part of the trading and material system into a cooking game where the game revolves around the trading and collection of ingredients. Players can trade, collect ingredients, use power cards and complete their orders to achieve points. This card game is physically made and created to tailor to a physical card game experience.",
+      "",
+      "Made with 3 other teammates where I did balancing of game, creation of cards and the art design of the cards."
+    ],
+    "projectType": "GAME",
+    "tag": [
+      "card-game",
+      "board-game"
+    ],
+    "projectLink": [],
+    "pictureUrl": [
+      "./images/project/project_29_1.png",
+      "./images/project/project_29_2.png",
+      "./images/project/project_29_3.png",
+      "./images/project/project_29_4.png"
+    ]
+  },
+  {
+    "projectID": 28,
+    "projectTitle": "OBOK",
+    "date": "5/12/2024",
+    "description": [
+      "One Blast One Kill",
+      "A fast-paced, casual 3v3 online multiplayer arena shooter for Android! This top-down action game is all about precision and strategy—just one blast is enough to take out your enemies. Bounce your shots off walls, outsmart your opponents, and dominate the arena. Upgrade your blast to gain the upper hand and become the ultimate blaster!",
+      "",
+      "Developed in a team of 3 as the multiplayer game programmer",
+      "",
+      "Made with Unity using Unity Netcode with Unity Relay and Lobby service"
+    ],
+    "projectType": "GAME",
+    "tag": [
+      "unity",
+      "multiplayer",
+      "netcode",
+      "mobile",
+      "android"
+    ],
+    "projectLink": [
+      {
+        "linkSite": "Youtube Trailer",
+        "linkUrl": "https://youtu.be/X_bkaWL73vY"
+      },
+      {
+        "linkSite": "Game and Project Download",
+        "linkUrl": "https://cloudmails-my.sharepoint.com/:f:/g/personal/tp061596_mail_apu_edu_my/Eq2dsLY1HmFJqSA2hcfhoY8BxWXnnssMwlzMX-_AEb5l9Q?e=eIBBZS"
+      }
+    ],
+    "pictureUrl": [
+      "./images/project/project_30_1.png",
+      "./images/project/project_30_2.png",
+      "./images/project/project_30_3.png",
+      "./images/project/project_30_4.png",
+      "./images/project/project_30_5.png"
+    ]
+  },
+  {
+    "projectID": 29,
+    "projectTitle": "PTSD",
+    "date": "5/12/2024",
+    "description": [
+      "Part Time Sewer Depo. (P.T.S.D) is a 3D multiplayer survival horror up to 3 players. It follows a group of part time employees of a megacorporation that fixes sewers. The players will play as an employee that will go on a thrilling adventure through the different sewer systems trying to complete their objectives either before the timer runs out while getting chased by a monster",
+      "",
+      "Developed with a team of 3 as the multiplayer game programmer",
+      "",
+      "Made with Unreal utilizing Epic Online Service for multiplayer using EOS Integration Kit"
+    ],
+    "projectType": "GAME",
+    "tag": [
+      "unreal",
+      "multipler",
+      "eos",
+      "horror"
+    ],
+    "projectLink": [
+      {
+        "linkSite": "Youtube Trailer",
+        "linkUrl": "https://youtu.be/dy5_HS7N-uc"
+      },
+      {
+        "linkSite": "Game Download",
+        "linkUrl": "https://drive.google.com/drive/folders/13THfSXDng6lsY0uyFf9Amv41YMwuBMFt?usp=sharing"
+      }
+    ],
+    "pictureUrl": [
+      "./images/project/project_31_1.png",
+      "./images/project/project_31_2.png",
+      "./images/project/project_31_3.png",
+      "./images/project/project_31_5.png",
+      "./images/project/project_31_6.png"
+    ]
+  },
+  {
+    "projectID": 30,
+    "projectTitle": "Lazy Wizard In My Pocket",
+    "date": "26/1/2025",
+    "description": [
+      "A 2D pixel art casual game where you are the town’s repair pro with a big secret: a lazy wizard who does all the work... with bubbles. The catch? The wizard’s too tired to care, so you’ll need to blow and shape magical bubbles into the perfect fixes. But bubble magic is limited—because, you know, the wizard’s lazy.",
+      "",
+      "Developed in Unity with a team of 5 as the lead programmer for the Global Game Jam 2025"
+    ],
+    "projectType": "GAME",
+    "tag": [
+      "unity",
+      "casual",
+      "pixel-art",
+      "2D",
+      "game-jam"
+    ],
+    "projectLink": [
+      {
+        "linkSite": "Itch.io",
+        "linkUrl": "https://dawnin64.itch.io/lazy-wizard-in-my-pocket"
+      }
+    ],
+    "pictureUrl": [
+      "./images/project/project_32_1.png",
+      "./images/project/project_32_2.png",
+      "./images/project/project_32_3.png",
+      "./images/project/project_32_4.png"
+    ]
+  },
+  {
+    "projectID": 31,
+    "projectTitle": "FiresOut!",
+    "date": "24/4/2025",
+    "description": [
+      "FiresOut! is a fast-paced, chaotic, and laugh-out-loud local co-op firefighting game where teamwork makes the dream work... or total disaster! Inspired by games like Overcooked and Moving Out, grab your gear and your best buddy as you dive into burning houses, dodge fireballs, and rescue helpless victims from fire monsters run amok.",
+      "",
+      "Developed in Unity under the studio name of Enmu Studio in a team of 5 as the project manager, game programmer and sound designer"
+    ],
+    "projectType": "GAME",
+    "tag": [
+      "unity",
+      "chaotic",
+      "local-coop"
+    ],
+    "projectLink": [
+      {
+        "linkSite": "Itch.io",
+        "linkUrl": "https://enmu-studio.itch.io/firesout"
+      }
+    ],
+    "pictureUrl": [
+      "./images/project/project_33_1.png",
+      "./images/project/project_33_2.png",
+      "./images/project/project_33_3.png",
+      "./images/project/project_33_4.png",
+      "./images/project/project_33_5.png"
+    ]
+  },
+  {
+    "projectID": 32,
+    "projectTitle": "Dragon Requiem",
+    "date": "14/5/2024",
+    "description": [
+      "Dragon Requiem is a 3rd person RTS-like troop commanding base building game where player has to gather resources during the day and fight against the monster swarming your base at night. Player can build towers and build barracks to hire troops which they can command.",
+      "",
+      "Game features troop commanding, base building, resource management, AI enemies and troop and day-night cycle",
+      "",
+      "Created for a game jam using Unity within one month with a team of 5 as the lead game programmer"
+    ],
+    "projectType": "GAME",
+    "tag": [
+      "troop-commanding",
+      "base-building"
+    ],
+    "projectLink": [
+      {
+        "linkSite": "Youtube",
+        "linkUrl": "https://www.youtube.com/watch?v=i-mqlvLQSm8&ab_channel=AYoYo"
+      }
+    ],
+    "pictureUrl": [
+      "./images/project/project_34_1.jpg",
+      "./images/project/project_34_2.jpg",
+      "./images/project/project_34_3.jpg",
+      "./images/project/project_34_4.jpg"
+    ]
+  },
+  {
+    "projectID": 33,
+    "projectTitle": "Akari-4",
+    "date": "25/4/2025",
+    "description": [
+      "A PSX style story adventure game with voice control inputs. A meteor named Akari-4 is crashing on earth in 4 hours. You and your dog have to get to the bunker before Akari 4 hits",
+      "Developed in Godot with a team of 4 as the level designer for the MMUGDC Game Jam 2025"
+    ],
+    "projectType": "GAME",
+    "tag": [
+      "godot",
+      "psx-style",
+      "story",
+      "narrativedriven",
+      "voice-input"
+    ],
+    "projectLink": [
+      {
+        "linkSite": "Itch.io",
+        "linkUrl": "https://kudoshi.itch.io/akari-4"
+      },
+      {
+        "linkSite": "Game Opening Scene",
+        "linkUrl": "https://www.instagram.com/p/DKHVtGThM2e/"
+      }
+    ],
+    "pictureUrl": [
+      "./images/project/project_35_1.png",
+      "./images/project/project_35_2.png",
+      "./images/project/project_35_3.png",
+      "./images/project/project_35_4.png"
+    ]
+  },
+  {
+    "projectID": 34,
+    "projectTitle": "Pogo Buds Adventure",
+    "date": "13/7/2025",
+    "description": [
+      "A hypercasual arcade style mobile game where you play as Tappy from AirAsia's Buds characters where you try to jump up using a pogo stick as high as you can using a limited amount of jumps. Developed in Unity with a team of 5 as the main programmer for the AirAsia Red Game Jam 2025"
+    ],
+    "projectType": "GAME",
+    "tag": [
+      "unity",
+      "mobile",
+      "hypercasual",
+      "arcade",
+      "air-asia"
+    ],
+    "projectLink": [
+      {
+        "linkSite": "Itch.io",
+        "linkUrl": "https://kudoshi.itch.io/pogo-buds-adventure"
+      }
+    ],
+    "pictureUrl": [
+      "./images/project/project_36_1.png",
+      "./images/project/project_36_2.png"
+    ]
+  }
 ]
-
