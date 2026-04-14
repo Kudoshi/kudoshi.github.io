@@ -1,22 +1,22 @@
 
 [
     {
-        "srcUrl" : "./images/project/project_33_1.png",
-        "header" : "FiresOut! demo released",
-        "caption" : "FiresOut! is a fast-paced chaotic local co-op firefighting game" 
+        "srcUrl" : "./images/project/project_31_1.png",
+        "header" : "FiresOut! now on Steam",
+        "caption" : "Wishlist FiresOut! on Steam now" 
     },
     {
-        "srcUrl" : "./images/project/project_19_2.png",
+        "srcUrl" : "./images/project/project_17_2.png",
         "header" : "Kudo the Destroyer",
         "caption" : "A strategy ship building game where you build your ship up as you survive from hordes of monsters as you escape to the portal" 
     }, 
     {
-        "srcUrl" : "./images/project/project_31_1.png",
+        "srcUrl" : "./images/project/project_29_1.png",
         "header" : "PTSD",
         "caption" : "An online 3D multiplayer survival horror up to 3 players developed in Unreal"
     },
     {
-        "srcUrl" : "./images/project/project_30_1.png",
+        "srcUrl" : "./images/project/project_28_1.png",
         "header" : "OBOK",
         "caption" : "A fast-paced, casual 3v3 online multiplayer arena shooter for Android"
     }

@@ -926,9 +926,9 @@
     "projectTitle": "FiresOut!",
     "date": "24/4/2025",
     "description": [
-      "FiresOut! is a fast-paced, chaotic, and laugh-out-loud local co-op firefighting game where teamwork makes the dream work... or total disaster! Inspired by games like Overcooked and Moving Out, grab your gear and your best buddy as you dive into burning houses, dodge fireballs, and rescue helpless victims from fire monsters run amok.",
+      "FiresOut! is a STEAM game which is a fast-paced, chaotic, and laugh-out-loud 1-4 player online/local co-op firefighting game where teamwork makes the dream work... or total disaster! Inspired by games like Overcooked and Moving Out, grab your gear and your best buddy as you dive into burning houses, dodge fireballs, and rescue helpless victims from fire monsters run amok.",
       "",
-      "Developed in Unity under the studio name of Enmu Studio in a team of 5 as the project manager, game programmer and sound designer"
+      "Developed in Unity under the cofounded studio called Dreamonaut Studio as the project manager, lead game programmer, sound designer and game director"
     ],
     "projectType": "GAME",
     "tag": [
@@ -1036,6 +1036,60 @@
     "pictureUrl": [
       "./images/project/project_34_1.png",
       "./images/project/project_34_2.png"
+    ]
+  },
+  {
+    "projectID": "35",
+    "projectTitle": "666 Soul Hunter",
+    "date": "22/12/2024",
+    "description": [
+        "A first person boomer shooter game whereby everytime you are defeated by enemies you get to change your fate via slot machine by exchanging your souls. Made in Unity with a team of 4 as the game programmer"
+    ],
+    "projectType": "GAME",
+    "tag": [
+        "unity",
+        "boomer-shooter",
+        "first-person"
+    ],
+    "projectLink": [
+        {
+            "linkSite": "Itch.io",
+            "linkUrl": "https://mohab21q.itch.io/666-soul-hunter"
+        }
+    ],
+    "pictureUrl": [
+        "./images/project/project_35_1.png",
+        "./images/project/project_35_2.png",
+        "./images/project/project_35_3.png",
+        "./images/project/project_35_4.png",
+        "./images/project/project_35_5.png"
+    ]
+    },
+    {
+    "projectID": "36",
+    "projectTitle": "Face It Together",
+    "date": "1/2/2026",
+    "description": [
+        "A party coop game where you and your friends are factory workers for buildings masks. Work with your friends to make masks by pressing a single button according to the mask parts' color. It tests your coordination with your friends.",
+        "Made in Unity in a team of 5 as the main lead programmer for the Global Game Jam 2026"
+    ],
+    "projectType": "GAME",
+    "tag": [
+        "unity",
+        "party",
+        "coop"
+    ],
+    "projectLink": [
+        {
+            "linkSite": "Itch.io",
+            "linkUrl": "https://khyh.itch.io/face-it-together"
+        }
+    ],
+    "pictureUrl": [
+        "./images/project/project_36_1.png",
+        "./images/project/project_36_2.png",
+        "./images/project/project_36_3.png",
+        "./images/project/project_36_4.png"
     ]
   }
 ]

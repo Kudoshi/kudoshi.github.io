@@ -1,7 +1,7 @@
 import Carousel from "../components/CarouselImage";
 import ProjectOverview from "../components/ProjectOverview";
 
-// TODO in future: Add in UM Game Jam
+// TODO in future: Add in Game Jam Plus game
 
 function Homepage() {
   return (
@@ -13,11 +13,8 @@ function Homepage() {
         <div className='d-flex flex-column justify-content-center align-items-center mt-3'>
           <div className='display-4 font-spartan-bold text-center text-wrap'>Brenden Tan "Kudoshi" Poh Guan</div>
           <div className='d-flex font-abeezee-normal justify-content-center align-items-center flex-wrap'>
-            <span className='fw-bold font-abeezee-italic p-2 px-3 mx-2'>GAME PROGRAMMER</span> 
-            <span className="text-brand"><b>|</b></span> 
-            <span className='fw-bold font-abeezee-italic p-2 px-3 mx-2'>APUGDC PRESIDENT</span>
-            <span className="text-brand"><b>|</b></span> 
-            <span className='fw-bold font-abeezee-italic p-2 px-3 mx-2'>GAME DEVELOPER</span> 
+            <span className='fw-bold font-abeezee-italic p-2 px-3 mx-2'>COFOUNDER OF DREAMONAUT STUDIO</span> 
+            {/* <span className="text-brand"><b>|</b></span>  */}
           </div>
           <div className='spanLine-secondary-manual my-1' style={{width: "100%"}}></div>
           <br/>
@@ -52,12 +49,12 @@ function Homepage() {
       </div>
       <div className='d-flex flex-column flex-md-row justify-content-evenly align-items-center px-5 BGDark py-4'>
         <div className='text-center BGBrandColorPassive text-white d-flex flex-column justify-content-center my-2' style={{width: "300px", height:"300px"}}>
-          <p className='fw-bold display-2'>12</p>
+          <p className='fw-bold display-2'>15</p>
           <br/>
           <p className='font-abeezee-normal h5 pt-3'>Game Jams Participated</p>
         </div>
         <div className='text-center BGBrandColorPassive text-white d-flex flex-column justify-content-center my-2' style={{width: "300px", height:"300px"}}>
-          <p className='fw-bold display-2'>26</p>
+          <p className='fw-bold display-2'>29</p>
           <br/>
           <p className='font-abeezee-normal h5 pt-3'>Games Made</p>
         </div>
